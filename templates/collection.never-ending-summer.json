@@ -1,0 +1,381 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1763687978525dfb16": {
+      "type": "_blocks",
+      "settings": {}
+    },
+    "collection-header": {
+      "type": "collection-header",
+      "disabled": true,
+      "settings": {
+        "spacing-above": "none",
+        "spacing-below": "none",
+        "show-title": true,
+        "heading-type": "section-heading",
+        "heading-alignment": "center",
+        "show-description": true,
+        "description-alignment": "with-title",
+        "white-text": true,
+        "show-image": true,
+        "use-image-fallback": true,
+        "image-display-type": "aspect-ratio",
+        "aspect-ratio": 104,
+        "mobile-image-display-type": "aspect-ratio",
+        "mobile-aspect-ratio": 134,
+        "overlay-style": "darken-top",
+        "text-style": "text-shadow",
+        "parallax-enabled": false,
+        "mobile-spacing-above": "none",
+        "mobile-spacing-below": "none"
+      }
+    },
+    "featured_images_aCwLXX": {
+      "type": "featured-images",
+      "disabled": true,
+      "name": "Featured images",
+      "settings": {
+        "border": "none",
+        "spacing-above": "large",
+        "spacing-below": "large",
+        "background-color": "none",
+        "container-width": "5",
+        "white-text": true,
+        "heading-type": "featured-heading",
+        "text-width": 575,
+        "text-horizontal-alignment": "center",
+        "text-vertical-alignment": "center",
+        "overlay-style": "none",
+        "text-style": "none",
+        "text-background-color": "transparent",
+        "image-display-type": "original",
+        "aspect-ratio": 56,
+        "image-1": "shopify://shop_images/18k_gold_jewelry_au.jpg",
+        "overline": "House Of Even",
+        "title": "NEW IN",
+        "highlight-type": "italic",
+        "highlight-color": "accent-2",
+        "highlight-text": "none",
+        "description": "<p>Collection</p>",
+        "link-url": "",
+        "button-style": "button-1",
+        "link-text": "",
+        "mobile-layout": "first",
+        "mobile-full-width": false,
+        "mobile-spacing-above": "medium",
+        "mobile-spacing-below": "medium",
+        "mobile-white-text": true,
+        "mobile-overlay": true,
+        "mobile-hide-description": false,
+        "mobile-button-style": "button-1",
+        "mobile-image-display-type": "original",
+        "mobile-aspect-ratio": 134,
+        "mobile-text-horizontal-alignment": "center",
+        "mobile-text-vertical-alignment": "center"
+      }
+    },
+    "image_with_text_overlay_3gdCdT": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "overline_qhgLEE": {
+          "type": "overline",
+          "settings": {
+            "overline": "COMING SOON"
+          }
+        },
+        "heading_tHanYe": {
+          "type": "heading",
+          "settings": {
+            "heading-type": "section-heading",
+            "title": "NEVER ENDING SUMMER",
+            "highlight-type": "italic",
+            "highlight-color": "accent-2",
+            "highlight-text": "none"
+          }
+        },
+        "description_9RY7P3": {
+          "type": "description",
+          "settings": {
+            "description": "<p>Late sunsets. Salt on the skin. Jewellery collected along the way.</p><p>A limited mini collection inspired by a summer you never quite left.</p><p>Limited pieces. Once they gone they won't return.</p>",
+            "mobile-hide-enabled": false
+          }
+        },
+        "button_QX79i8": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "style": "button-2",
+            "link-url": "",
+            "link-text": "Text"
+          }
+        }
+      },
+      "block_order": [
+        "overline_qhgLEE",
+        "heading_tHanYe",
+        "description_9RY7P3",
+        "button_QX79i8"
+      ],
+      "name": "Image with text overlay",
+      "settings": {
+        "border": "none",
+        "spacing-above": "none",
+        "spacing-below": "none",
+        "background-color": "none",
+        "container-width": "6",
+        "white-text": true,
+        "text-horizontal-alignment": "left",
+        "text-vertical-alignment": "center",
+        "text-width": 400,
+        "overlay-style": "darken-bottom",
+        "text-style": "text-shadow",
+        "text-background-color": "transparent",
+        "image-display-type": "small",
+        "aspect-ratio": 56,
+        "parallax-enabled": false,
+        "image": "shopify://shop_images/AFF91C6C-18F0-4BA3-8454-C1F63A81430D_fa86fb99-dbbd-4c06-a002-01302b6e5b53.png",
+        "mobile-full-width": true,
+        "mobile-spacing-above": "none",
+        "mobile-spacing-below": "none",
+        "mobile-image": "shopify://shop_images/AFF91C6C-18F0-4BA3-8454-C1F63A81430D_fa86fb99-dbbd-4c06-a002-01302b6e5b53.png",
+        "mobile-image-display-type": "small",
+        "mobile-aspect-ratio": 134,
+        "mobile-text-horizontal-alignment": "center",
+        "mobile-text-vertical-alignment": "center"
+      }
+    },
+    "image_with_text_overlay_CT6q8r": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "overline_KnR3zR": {
+          "type": "overline",
+          "settings": {
+            "overline": "House Of Even"
+          }
+        },
+        "heading_Vjr9Kz": {
+          "type": "heading",
+          "settings": {
+            "heading-type": "featured-heading",
+            "title": "CHARMS",
+            "highlight-type": "italic",
+            "highlight-color": "accent-2",
+            "highlight-text": "none"
+          }
+        },
+        "description_MF9V63": {
+          "type": "description",
+          "settings": {
+            "description": "<p>Collection</p>",
+            "mobile-hide-enabled": false
+          }
+        },
+        "button_m8z9Az": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "style": "button-2",
+            "link-url": "",
+            "link-text": "Text"
+          }
+        }
+      },
+      "block_order": [
+        "overline_KnR3zR",
+        "heading_Vjr9Kz",
+        "description_MF9V63",
+        "button_m8z9Az"
+      ],
+      "disabled": true,
+      "name": "Image with text overlay",
+      "settings": {
+        "border": "none",
+        "spacing-above": "none",
+        "spacing-below": "none",
+        "background-color": "none",
+        "container-width": "6",
+        "white-text": true,
+        "text-horizontal-alignment": "center",
+        "text-vertical-alignment": "center",
+        "text-width": 400,
+        "overlay-style": "darken-bottom",
+        "text-style": "none",
+        "text-background-color": "transparent",
+        "image-display-type": "small",
+        "aspect-ratio": 56,
+        "parallax-enabled": false,
+        "image": "shopify://shop_images/lemon_charm_gold_combo.jpg",
+        "mobile-full-width": true,
+        "mobile-spacing-above": "none",
+        "mobile-spacing-below": "none",
+        "mobile-image": "shopify://shop_images/lemon_charm_gold_combo.jpg",
+        "mobile-image-display-type": "small",
+        "mobile-aspect-ratio": 134,
+        "mobile-text-horizontal-alignment": "center",
+        "mobile-text-vertical-alignment": "center"
+      }
+    },
+    "collection-navigation": {
+      "type": "collection-navigation",
+      "settings": {
+        "spacing-above": "medium",
+        "spacing-below": "none",
+        "show-browse-button": true,
+        "show-sort-button": true,
+        "show-refine-button": true,
+        "show-layout-buttons": true,
+        "show-collections-list": true,
+        "custom-list-collections": "",
+        "show-sort-list": true,
+        "show-refine-list": true,
+        "swatches": "circle",
+        "show-search-link": true,
+        "mobile-spacing-above": "medium",
+        "mobile-spacing-below": "none"
+      }
+    },
+    "main-collection": {
+      "type": "main-collection",
+      "blocks": {
+        "promotion": {
+          "type": "promotion",
+          "settings": {
+            "position": 6,
+            "promo-width": "2",
+            "heading-type": "featured-heading",
+            "text-horizontal-alignment": "center",
+            "text-vertical-alignment": "center",
+            "text-width": 500,
+            "overlay-style": "darken-bottom",
+            "text-style": "none",
+            "background-color": "none",
+            "text-background-color": "transparent",
+            "border-type": "thick",
+            "parallax-enabled": false,
+            "white-text": true,
+            "image": "shopify://shop_images/DSC_7993.jpg",
+            "overline": "Most popular",
+            "title": "Most Loved",
+            "highlight-type": "italic",
+            "highlight-color": "accent-1",
+            "highlight-text": "none",
+            "description": "",
+            "link-url": "shopify://collections/even-connect",
+            "link-text": "Shop now",
+            "mobile-image": "shopify://shop_images/DSC_7993.jpg",
+            "mobile-text-horizontal-alignment": "center",
+            "mobile-text-vertical-alignment": "center",
+            "mobile-hide-description": false,
+            "mobile-hide-border": false
+          }
+        }
+      },
+      "block_order": [
+        "promotion"
+      ],
+      "settings": {
+        "spacing-above": "medium",
+        "spacing-below": "large",
+        "products-per-row--desktop": 4,
+        "products-per-row--mobile": "2",
+        "number-of-rows": 8,
+        "mobile-spacing-above": "small",
+        "mobile-spacing-below": "small"
+      }
+    },
+    "countdown": {
+      "type": "countdown",
+      "blocks": {
+        "overline": {
+          "type": "overline",
+          "settings": {
+            "overline": "For a limited time get up to 20% off"
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading-type": "section-heading",
+            "title": "Black Friday Sale",
+            "highlight-type": "none",
+            "highlight-color": "",
+            "highlight-text": ""
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "style": "button-2",
+            "link-url": "",
+            "link-text": "Shop now"
+          }
+        }
+      },
+      "block_order": [
+        "overline",
+        "heading",
+        "button"
+      ],
+      "disabled": true,
+      "settings": {
+        "border": "none",
+        "spacing-above": "large",
+        "spacing-below": "large",
+        "container-width": "3",
+        "background-color": "dark",
+        "outer-background": true,
+        "reverse-layout": false,
+        "text-alignment": "left",
+        "white-text": true,
+        "text-style": "none",
+        "overlay-style": "darken-bottom",
+        "parallax-enabled": true,
+        "timer-bg-color": "dark",
+        "light-number": true,
+        "number-size": 40,
+        "expiry-date": "DD-MM-YYYY",
+        "expiry-hours": 0,
+        "expiry-minutes": 0,
+        "hide-when-expired": true,
+        "show-button-when": "always",
+        "mobile-spacing-above": "large",
+        "mobile-spacing-below": "large",
+        "mobile-text-alignment": "center",
+        "mobile-number-size": 20
+      }
+    },
+    "recent-products": {
+      "type": "recent-products",
+      "settings": {
+        "border": "none",
+        "spacing-above": "large",
+        "spacing-below": "large",
+        "background-color": "none",
+        "white-text": false,
+        "heading-alignment": "center",
+        "heading": "Recently viewed",
+        "mobile-spacing-above": "large",
+        "mobile-spacing-below": "large"
+      }
+    }
+  },
+  "order": [
+    "1763687978525dfb16",
+    "collection-header",
+    "featured_images_aCwLXX",
+    "image_with_text_overlay_3gdCdT",
+    "image_with_text_overlay_CT6q8r",
+    "collection-navigation",
+    "main-collection",
+    "countdown",
+    "recent-products"
+  ]
+}

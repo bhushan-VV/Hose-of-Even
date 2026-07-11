@@ -1,0 +1,524 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main-product": {
+      "type": "main-product",
+      "blocks": {
+        "liquid_eAhYNE": {
+          "type": "liquid",
+          "settings": {
+            "custom-liquid": "{% if product.metafields.custom.meaning != blank %}\n  <p class=\"product-meaning\">\n    {{ product.metafields.custom.meaning }}\n  </p>\n{% endif %}"
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {}
+        },
+        "judge_me_reviews_preview_badge_hyM3Np": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "vendor": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "options": {
+          "type": "options",
+          "settings": {
+            "variant-style": "buttons",
+            "swatches": "circle",
+            "size-chart-enabled": true,
+            "size-chart-option": "size",
+            "size-chart-content": ""
+          }
+        },
+        "buy-buttons-1": {
+          "type": "buy-buttons",
+          "settings": {
+            "smart-payment-enabled": true,
+            "primary-button-style": "button-1",
+            "secondary-button-style": "button-3",
+            "sticky-add-enabled": true
+          }
+        },
+        "liquid_RpxwdD": {
+          "type": "liquid",
+          "settings": {
+            "custom-liquid": "<a href=\"https://houseofeven.com/collections/choose-your-base-necklace\" class=\"even-secondary-button\">\n  START WITH A NECKLACE — CHOOSE YOUR BASE\n</a>"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "collapsible-row-enabled": true,
+            "heading": "Description"
+          }
+        },
+        "pickup": {
+          "type": "pickup",
+          "disabled": true,
+          "settings": {}
+        },
+        "complementary-products-1": {
+          "type": "complementary-products",
+          "disabled": true,
+          "settings": {
+            "title": "Pairs well with",
+            "max-products": 2,
+            "collapsible-row-enabled": false
+          }
+        },
+        "social-sharing-1": {
+          "type": "social-sharing",
+          "disabled": true,
+          "settings": {
+            "facebook-enabled": true,
+            "x-enabled": true,
+            "pinterest-enabled": true,
+            "email-enabled": true,
+            "url-enabled": true
+          }
+        },
+        "collapsible-row-1": {
+          "type": "collapsible-row",
+          "settings": {
+            "heading": "Material",
+            "description": "<p>Each piece is <strong>coated with a thicker layer of 18K gold using advanced PVD (Physical Vapour Deposition) technology</strong>, a process that bonds the gold to the stainless steel at a molecular level.<br/><br/>This makes our jewellery <strong>up to 10 times more durable than standard fashion plating</strong>, with a <strong>superior waterproof and tarnish-resistant finish</strong> — stronger and longer-lasting than traditional gold vermeil.</p>",
+            "page-content": "",
+            "default-open": false
+          }
+        },
+        "collapsible-row-2": {
+          "type": "collapsible-row",
+          "disabled": true,
+          "settings": {
+            "heading": "What customers are saying",
+            "description": "<p><strong>Lily A</strong><br/>As an astrology enthusiast, I love how this brand incorporates astrological elements into their designs. My zodiac sign ring is my new favorite accessory!<br/><br/><strong>Sophia W<br/></strong>The quality and beauty of these pieces are unparalleled. My rose quartz necklace is not only gorgeous but also brings me a sense of calm and love</p><p><strong>Jessica M<br/></strong>These pieces are not only beautiful but also hold so much meaning. My moonstone pendant makes me feel so connected to my intuition and inner peace.</p><p><strong>Olivia K<br/></strong>I was looking for a unique gift for my best friend and found the perfect pair of earrings here. She adores them and wears them all the time. Thank you for such wonderful jewelry!</p>",
+            "page-content": "",
+            "default-open": false
+          }
+        },
+        "collapsible-row-3": {
+          "type": "collapsible-row",
+          "settings": {
+            "heading": "Shipping and returns",
+            "description": "<p>Shipped within 1-2 business days via express post. 14 day returns.</p>",
+            "page-content": "",
+            "default-open": false
+          }
+        },
+        "collapsible-row-4": {
+          "type": "collapsible-row",
+          "settings": {
+            "heading": "Care instructions",
+            "description": "<p><strong>How do I care for my jewellery?</strong><br/><br/>Our pieces are made for everyday wear, but a little care goes a long way:</p><ul><li>Avoid direct contact with harsh chemicals, perfumes, and cleaning agents.<br/></li><li>After swimming, rinse with clean water and gently dry.<br/></li><li>Store your jewellery in the pouch or box provided when not in use.<br/></li></ul>",
+            "page-content": "",
+            "default-open": false
+          }
+        }
+      },
+      "block_order": [
+        "liquid_eAhYNE",
+        "heading",
+        "judge_me_reviews_preview_badge_hyM3Np",
+        "vendor",
+        "price",
+        "options",
+        "buy-buttons-1",
+        "liquid_RpxwdD",
+        "description",
+        "pickup",
+        "complementary-products-1",
+        "social-sharing-1",
+        "collapsible-row-1",
+        "collapsible-row-2",
+        "collapsible-row-3",
+        "collapsible-row-4"
+      ],
+      "settings": {
+        "spacing-above": "medium",
+        "spacing-below": "large",
+        "container-width": "4",
+        "media-layout": "one",
+        "thumbnail-width": 80,
+        "media-gap": 8,
+        "text-column-width": 400,
+        "column-spacing": "close",
+        "text-alignment": "left",
+        "heading-enabled": false,
+        "heading-sizes-enabled": true,
+        "heading-size": 40,
+        "breadcrumbs-enabled": true,
+        "modal-enabled": true,
+        "variant-scroll-enabled": true,
+        "image-zoom-enabled": true,
+        "loop-enabled": false,
+        "mobile-spacing-above": "none",
+        "mobile-spacing-below": "large",
+        "mobile-text-alignment": "center",
+        "mobile-media-layout": "slideshow"
+      }
+    },
+    "image-with-text": {
+      "type": "image-with-text",
+      "settings": {
+        "border": "none",
+        "spacing-above": "none",
+        "spacing-below": "none",
+        "container-width": "6",
+        "background-color": "none",
+        "white-text": true,
+        "heading-type": "featured-heading",
+        "text-position": "overlay",
+        "overlap": false,
+        "text-horizontal-alignment": "left",
+        "text-vertical-alignment": "center",
+        "text-width": 500,
+        "overlay-style": "none",
+        "text-style": "eclipse-shadow",
+        "text-background-color": "transparent",
+        "image-display-type": "small",
+        "aspect-ratio": 56,
+        "parallax-enabled": true,
+        "overline": "",
+        "title": "Astrology gems",
+        "highlight-type": "italic",
+        "highlight-color": "accent-1",
+        "highlight-text": "none",
+        "description": "<p>Uncover how gemstones and metals attuned to your zodiac sign can enhance your energy and well-being. Dive into the mystical world where celestial influences meet exquisite craftsmanship, guiding you to choose pieces that reflect your cosmic identity and personal style. Explore how the stars can illuminate your path to finding meaningful, personalized adornments.</p>",
+        "link-url": "",
+        "button-style": "button-1",
+        "link-text": "View blog article",
+        "mobile-full-width": true,
+        "mobile-spacing-above": "none",
+        "mobile-spacing-below": "none",
+        "mobile-white-text": true,
+        "mobile-overlay": true,
+        "mobile-hide-description": false,
+        "mobile-button-style": "button-1",
+        "mobile-image-display-type": "original",
+        "mobile-aspect-ratio": 134,
+        "mobile-text-horizontal-alignment": "center",
+        "mobile-text-vertical-alignment": "center"
+      }
+    },
+    "testimonials": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial-1": {
+          "type": "testimonial",
+          "settings": {
+            "link": "",
+            "icon": "quote",
+            "author-role": "",
+            "author-name": "Lily A",
+            "description": "<p>As an astrology enthusiast, I love how this brand incorporates astrological elements into their designs. My zodiac sign ring is my new favorite accessory!</p>"
+          }
+        },
+        "testimonial-2": {
+          "type": "testimonial",
+          "settings": {
+            "link": "",
+            "icon": "quote",
+            "author-role": "",
+            "author-name": "Sophia W",
+            "description": "<p>The quality and beauty of these pieces are unparalleled. My rose quartz necklace is not only gorgeous but also brings me a sense of calm and love</p>"
+          }
+        },
+        "testimonial-3": {
+          "type": "testimonial",
+          "settings": {
+            "link": "",
+            "icon": "quote",
+            "author-role": "",
+            "author-name": "Jessica M",
+            "description": "<p>These pieces are not only beautiful but also hold so much meaning. My moonstone pendant makes me feel so connected to my intuition and inner peace.</p>"
+          }
+        },
+        "testimonial-4": {
+          "type": "testimonial",
+          "settings": {
+            "link": "",
+            "icon": "quote",
+            "author-role": "",
+            "author-name": "Olivia K",
+            "description": "<p>I was looking for a unique gift for my best friend and found the perfect pair of earrings here. She adores them and wears them all the time. Thank you for such wonderful jewelry!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial-1",
+        "testimonial-2",
+        "testimonial-3",
+        "testimonial-4"
+      ],
+      "settings": {
+        "border": "none",
+        "spacing-above": "large",
+        "spacing-below": "none",
+        "background-color": "none",
+        "outer-background": true,
+        "text-background-color": "transparent",
+        "white-text": false,
+        "section-alignment": "center",
+        "text-alignment": "center",
+        "container-width": "4",
+        "width": 4,
+        "image-shape": "circle",
+        "overline": "Customer Experiences",
+        "heading": "Trusted and Treasured",
+        "link-url": "",
+        "button-style": "button-1",
+        "link-text": "",
+        "mobile-spacing-above": "large",
+        "mobile-spacing-below": "none",
+        "mobile-heading-alignment": "left",
+        "mobile-text-alignment": "center",
+        "mobile-width": "1",
+        "mobile-media-layout": "slideshow"
+      }
+    },
+    "featured-products": {
+      "type": "featured-products",
+      "settings": {
+        "border": "none",
+        "spacing-above": "large",
+        "spacing-below": "none",
+        "background-color": "none",
+        "white-text": false,
+        "display-type": "grid",
+        "products-per-row--desktop": "4",
+        "section-alignment": "center",
+        "product-list": [],
+        "heading": "Staff picks",
+        "link-url": "",
+        "button-style": "button-1",
+        "link-text": "",
+        "mobile-spacing-above": "large",
+        "mobile-spacing-below": "none",
+        "mobile-heading-alignment": "left",
+        "products-per-row--mobile": "1"
+      }
+    },
+    "grid-with-overlay": {
+      "type": "grid-with-overlay",
+      "blocks": {
+        "image-1": {
+          "type": "image",
+          "settings": {
+            "x-blocks": "2",
+            "y-blocks": "2",
+            "text-width": 500,
+            "text-horizontal-alignment": "center",
+            "text-vertical-alignment": "center",
+            "title": "Best Sellers",
+            "link-url": "",
+            "link-text": "",
+            "mobile-text-horizontal-alignment": "center",
+            "mobile-text-vertical-alignment": "center"
+          }
+        },
+        "image-2": {
+          "type": "image",
+          "settings": {
+            "x-blocks": "1",
+            "y-blocks": "1",
+            "text-width": 500,
+            "text-horizontal-alignment": "center",
+            "text-vertical-alignment": "center",
+            "title": "New Arrivals",
+            "link-url": "",
+            "link-text": "",
+            "mobile-text-horizontal-alignment": "center",
+            "mobile-text-vertical-alignment": "center"
+          }
+        },
+        "image-3": {
+          "type": "image",
+          "settings": {
+            "x-blocks": "1",
+            "y-blocks": "1",
+            "text-width": 500,
+            "text-horizontal-alignment": "center",
+            "text-vertical-alignment": "center",
+            "title": "Sale",
+            "link-url": "",
+            "link-text": "",
+            "mobile-text-horizontal-alignment": "center",
+            "mobile-text-vertical-alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "image-1",
+        "image-2",
+        "image-3"
+      ],
+      "settings": {
+        "border": "none",
+        "spacing-above": "large",
+        "spacing-below": "none",
+        "container-width": "4",
+        "background-color": "none",
+        "heading-white-text": false,
+        "section-alignment": "center",
+        "spacing": true,
+        "width": 3,
+        "row-height": 250,
+        "white-text": true,
+        "overlay-style": "darken-bottom",
+        "text-style": "none",
+        "heading-type": "featured-heading",
+        "overline": "",
+        "heading": "",
+        "description": "",
+        "link-url": "",
+        "button-style": "button-1",
+        "link-text": "",
+        "mobile-full-width": false,
+        "mobile-spacing-above": "large",
+        "mobile-spacing-below": "none",
+        "mobile-width": "1",
+        "mobile-spacing": true,
+        "mobile-image-display-type": "original",
+        "mobile-aspect-ratio": 134
+      }
+    },
+    "collapsible-rows": {
+      "type": "collapsible-rows",
+      "blocks": {
+        "collapsible-row-1": {
+          "type": "collapsible-row",
+          "settings": {
+            "heading": "What materials are used in your jewelry?",
+            "description": "<p>Each House of Even piece is crafted from <strong>high-quality recyclable stainless steel</strong> and finished with a <strong>thicker layer of 18k PVD gold plating</strong> — a process that makes our gold tone <strong>shinier, lighter, and far more durable</strong> than regular gold-plated jewellery on the market.<br/><br/>Many designs are adorned with <strong>natural freshwater pearls, gemstones, and crystals</strong>, making every piece truly unique.</p>",
+            "page-content": "",
+            "default-open": false
+          }
+        },
+        "collapsible-row-2": {
+          "type": "collapsible-row",
+          "settings": {
+            "heading": "Are your materials ethically sourced?",
+            "description": "<p>Yes. We work closely with trusted suppliers who follow responsible and ethical sourcing practices. Our commitment is to create beautiful pieces that reflect care for both the people who make them and the planet that inspires them.</p>",
+            "page-content": "",
+            "default-open": false
+          }
+        },
+        "collapsible-row-3": {
+          "type": "collapsible-row",
+          "settings": {
+            "heading": "Do you offer custom jewelry designs?",
+            "description": "<p>At this stage, we don’t offer fully custom designs. However, every piece is thoughtfully designed to be mixed and matched through our <strong>Mix. Match. Make it Yours.</strong> concept — allowing you to create your own combinations of charms, chains, and pendants that tell your story.</p>",
+            "page-content": "",
+            "default-open": false
+          }
+        },
+        "collapsible-row-4": {
+          "type": "collapsible-row",
+          "settings": {
+            "heading": "How do I care for my House of Even jewellery?",
+            "description": "<p>Our jewellery is made to be lived in, but like all fine pieces, a little care helps it last beautifully.</p><ul><li><br/>Avoid contact with harsh chemicals, perfumes, and cleaning products.<br/></li><li><br/>If your jewellery needs cleaning, <strong>wash it gently with water and mild hand soap</strong>, then pat dry.<br/></li><li><br/><strong>Gently wipe with a soft cloth</strong> after wear to maintain its shine — we include one with every purchase.<br/></li><li><br/>Store pieces individually in their pouch to prevent scratching.<br/></li><li><br/>Extra care is recommended for <strong>natural pearls, stones, and crystals</strong>, as these materials are delicate by nature.<br/></li></ul><p>With proper care, your House of Even jewellery will keep its brilliance for years to come.</p>",
+            "page-content": "",
+            "default-open": false
+          }
+        },
+        "collapsible-row-5": {
+          "type": "collapsible-row",
+          "settings": {
+            "heading": "What is your return policy",
+            "description": "<p>We want you to love your jewellery as much as we do.<br/><br/>If you’re not completely happy with your purchase, you can return it within <strong>14 days of delivery</strong> for an exchange or store credit.<br/><br/>Please note that:</p><ul><li>Items must be unworn and in original packaging.<br/></li><li>For hygiene reasons, earrings are final sale.<br/></li><li>Shipping fees are non-refundable.<br/></li></ul><p>Full details can be found in our <strong>Return & Warranty Policy</strong>.</p>",
+            "page-content": "",
+            "default-open": false
+          }
+        }
+      },
+      "block_order": [
+        "collapsible-row-1",
+        "collapsible-row-2",
+        "collapsible-row-3",
+        "collapsible-row-4",
+        "collapsible-row-5"
+      ],
+      "settings": {
+        "border": "none",
+        "spacing-above": "large",
+        "spacing-below": "none",
+        "background-color": "none",
+        "white-text": false,
+        "container-width": "3",
+        "two-columns-enabled": true,
+        "heading": "Frequently Asked Questions",
+        "heading-alignment": "center",
+        "mobile-full-width": false,
+        "mobile-spacing-above": "large",
+        "mobile-spacing-below": "none"
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "border": "none",
+        "spacing-above": "large",
+        "spacing-below": "large",
+        "container-width": "4",
+        "background-color": "none",
+        "white-text": false,
+        "title": "You may also like",
+        "mobile-spacing-above": "large",
+        "mobile-spacing-below": "large"
+      }
+    },
+    "countdown": {
+      "type": "countdown",
+      "settings": {
+        "border": "none",
+        "spacing-above": "large",
+        "spacing-below": "large",
+        "container-width": "3",
+        "background-color": "dark",
+        "outer-background": true,
+        "reverse-layout": false,
+        "text-alignment": "left",
+        "white-text": true,
+        "text-style": "none",
+        "overlay-style": "darken-bottom",
+        "parallax-enabled": true,
+        "timer-bg-color": "dark",
+        "light-number": true,
+        "number-size": 40,
+        "expiry-date": "DD-MM-YYYY",
+        "expiry-hours": 0,
+        "expiry-minutes": 0,
+        "hide-when-expired": true,
+        "show-button-when": "always",
+        "mobile-spacing-above": "large",
+        "mobile-spacing-below": "large",
+        "mobile-text-alignment": "center",
+        "mobile-number-size": 20
+      }
+    }
+  },
+  "order": [
+    "main-product",
+    "image-with-text",
+    "testimonials",
+    "featured-products",
+    "grid-with-overlay",
+    "collapsible-rows",
+    "related-products",
+    "countdown"
+  ]
+}

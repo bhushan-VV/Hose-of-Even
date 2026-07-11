@@ -1,0 +1,128 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_with_text_overlay_rU7C96": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "overline_6PC9GL": {
+          "type": "overline",
+          "settings": {
+            "overline": "House Of Even"
+          }
+        },
+        "heading_ztUfg6": {
+          "type": "heading",
+          "settings": {
+            "heading-type": "featured-heading",
+            "title": "GET IN TOUCH",
+            "highlight-type": "italic",
+            "highlight-color": "accent-2",
+            "highlight-text": "none"
+          }
+        },
+        "description_ggEcat": {
+          "type": "description",
+          "settings": {
+            "description": "",
+            "mobile-hide-enabled": false
+          }
+        }
+      },
+      "block_order": [
+        "overline_6PC9GL",
+        "heading_ztUfg6",
+        "description_ggEcat"
+      ],
+      "name": "Image with text overlay",
+      "settings": {
+        "border": "none",
+        "spacing-above": "none",
+        "spacing-below": "none",
+        "background-color": "none",
+        "container-width": "6",
+        "white-text": true,
+        "text-horizontal-alignment": "center",
+        "text-vertical-alignment": "center",
+        "text-width": 400,
+        "overlay-style": "darken-bottom",
+        "text-style": "none",
+        "text-background-color": "transparent",
+        "image-display-type": "medium",
+        "aspect-ratio": 56,
+        "parallax-enabled": false,
+        "image": "shopify://shop_images/18k_gold_jewelry_australia.webp",
+        "mobile-full-width": true,
+        "mobile-spacing-above": "none",
+        "mobile-spacing-below": "none",
+        "mobile-image": "shopify://shop_images/51C7B38C-1714-4095-98F5-9398AC6AF0D3_2.jpg",
+        "mobile-image-display-type": "original",
+        "mobile-aspect-ratio": 134,
+        "mobile-text-horizontal-alignment": "center",
+        "mobile-text-vertical-alignment": "center"
+      }
+    },
+    "main": {
+      "type": "page",
+      "settings": {
+        "show-title": false,
+        "spacing-above": "none",
+        "spacing-below": "large",
+        "container-width": "1",
+        "background-color": "none",
+        "white-text": false,
+        "mobile-spacing-above": "medium",
+        "mobile-spacing-below": "medium"
+      }
+    },
+    "divider_PwWiPR": {
+      "type": "divider",
+      "name": "Divider",
+      "settings": {
+        "border-enabled": true,
+        "white-border": false,
+        "spacing-above": "medium",
+        "spacing-below": "medium",
+        "container-width": "5",
+        "background-color": "none",
+        "mobile-full-width": false,
+        "mobile-spacing-above": "medium",
+        "mobile-spacing-below": "medium"
+      }
+    },
+    "1632180071f18cee62": {
+      "type": "contact",
+      "settings": {
+        "border": "none",
+        "spacing-above": "none",
+        "spacing-below": "large",
+        "background-color": "none",
+        "outer-background": true,
+        "white-text": false,
+        "heading-alignment": "center",
+        "container-width": "2",
+        "show-social-sharing": true,
+        "heading": "Share Your Thoughts!",
+        "store-address": "HOUSE OF EVEN\nPO Box 94\nVarsity Lakes - QLD\nAustralia",
+        "store-hours": "<p>hello@houseofeven.com</p>",
+        "button-style": "button-1",
+        "link-text": "Send",
+        "mobile-spacing-above": "medium",
+        "mobile-spacing-below": "medium"
+      }
+    }
+  },
+  "order": [
+    "image_with_text_overlay_rU7C96",
+    "main",
+    "divider_PwWiPR",
+    "1632180071f18cee62"
+  ]
+}

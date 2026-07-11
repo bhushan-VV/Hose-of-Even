@@ -1,0 +1,427 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main-product": {
+      "type": "main-product",
+      "blocks": {
+        "liquid_tdGgW7": {
+          "type": "liquid",
+          "settings": {
+            "custom-liquid": "{% if product.metafields.custom.meaning != blank %}\n  <p class=\"product-meaning\">\n    {{ product.metafields.custom.meaning }}\n  </p>\n{% endif %}"
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {}
+        },
+        "judge_me_reviews_preview_badge_EegLPn": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "vendor": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "options": {
+          "type": "options",
+          "settings": {
+            "variant-style": "buttons",
+            "swatches": "circle",
+            "size-chart-enabled": true,
+            "size-chart-option": "size",
+            "size-chart-content": ""
+          }
+        },
+        "liquid_Nih4Fx": {
+          "type": "liquid",
+          "settings": {
+            "custom-liquid": "{% assign afterpay_amount = product.selected_or_first_available_variant.price | divided_by: 4.0 | money %}\n\n<div style=\"margin-top:1px; display:flex; align-items:center; gap:2px; font-size:14px;\">\n  <span>or 4 interest-free payments of <strong>{{ afterpay_amount }}</strong> with</span>\n\n  <img\n    src=\"https://static.afterpay.com/integration/product-page/logo-afterpay-colour.png\"\n    alt=\"Afterpay\"\n    style=\"height:18px; width:auto;\"\n    loading=\"lazy\"\n  />\n</div>"
+          }
+        },
+        "liquid_NzdrbH": {
+          "type": "liquid",
+          "settings": {
+            "custom-liquid": "<p style=\"margin-top:1px; font-size:14px; color:#6b6b6b;\">\nDomestic Free shipping on orders over $100 — automatically applied at checkout\n</p>"
+          }
+        },
+        "buy-buttons-1": {
+          "type": "buy-buttons",
+          "settings": {
+            "smart-payment-enabled": true,
+            "primary-button-style": "button-1",
+            "secondary-button-style": "button-3",
+            "sticky-add-enabled": true
+          }
+        },
+        "liquid_WiWTVK": {
+          "type": "liquid",
+          "settings": {
+            "custom-liquid": "<a href=\"https://houseofeven.com/collections/choose-your-base-necklace\" class=\"even-secondary-button\">\n  START WITH A NECKLACE — CHOOSE YOUR BASE\n</a>"
+          }
+        },
+        "liquid_fztLGn": {
+          "type": "liquid",
+          "settings": {
+            "custom-liquid": "{{ product.metafields.custom.short_product_message | metafield_tag }}"
+          }
+        },
+        "liquid_tEqMUn": {
+          "type": "liquid",
+          "settings": {
+            "custom-liquid": "{% if product.metafields.custom.material_badges %}\n  <div class=\"material-badges\">\n    <img src=\"{{ product.metafields.custom.material_badges | file_url }}\" alt=\"Material icons\" style=\"max-width:100%; margin-top:15px;\">\n  </div>\n{% endif %}"
+          }
+        },
+        "social-sharing-1": {
+          "type": "social-sharing",
+          "disabled": true,
+          "settings": {
+            "facebook-enabled": false,
+            "x-enabled": false,
+            "pinterest-enabled": false,
+            "email-enabled": false,
+            "url-enabled": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "collapsible-row-enabled": true,
+            "heading": "Description"
+          }
+        },
+        "collapsible-row-1": {
+          "type": "collapsible-row",
+          "settings": {
+            "heading": "Material",
+            "description": "<p>House of Even jewellery is crafted using <strong>18K</strong> and <strong>14K gold PVD-plated stainless steel,</strong> solid <strong>sterling silver (S925)</strong>, and <strong>sterling silver finished with 24K gold plating.</strong> </p><p>Our <strong>stainless steel</strong> pieces are made with advanced technology for enhanced durability, offering a <strong>waterproof, tarnish-resistant </strong>finish designed for everyday wear. </p><p><strong>Sterling silver</strong> pieces are timeless by nature and may develop a soft patina over time, which can be easily polished to restore shine.</p>",
+            "page-content": "",
+            "default-open": false
+          }
+        },
+        "collapsible-row-2": {
+          "type": "collapsible-row",
+          "disabled": true,
+          "settings": {
+            "heading": "What customers are saying",
+            "description": "<p><strong>Lily A</strong><br/>As an astrology enthusiast, I love how this brand incorporates astrological elements into their designs. My zodiac sign ring is my new favorite accessory!<br/><br/><strong>Sophia W<br/></strong>The quality and beauty of these pieces are unparalleled. My rose quartz necklace is not only gorgeous but also brings me a sense of calm and love</p><p><strong>Jessica M<br/></strong>These pieces are not only beautiful but also hold so much meaning. My moonstone pendant makes me feel so connected to my intuition and inner peace.</p><p><strong>Olivia K<br/></strong>I was looking for a unique gift for my best friend and found the perfect pair of earrings here. She adores them and wears them all the time. Thank you for such wonderful jewelry!</p>",
+            "page-content": "",
+            "default-open": false
+          }
+        },
+        "collapsible-row-3": {
+          "type": "collapsible-row",
+          "settings": {
+            "heading": "Shipping and returns",
+            "description": "<p>Shipped within 1 business days from Australia. 30-day returns.</p>",
+            "page-content": "",
+            "default-open": false
+          }
+        },
+        "collapsible-row-4": {
+          "type": "collapsible-row",
+          "settings": {
+            "heading": "Care instructions",
+            "description": "<p><strong>How do I care for my jewellery?</strong><br/><br/>Our pieces are made for everyday wear, but a little care goes a long way:</p><p>- Avoid direct contact with harsh chemicals, perfumes, and cleaning agents.<br/>- After swimming, rinse with clean water and gently dry.<br/>- Store your jewellery in the pouch or box provided when not in use.<br/></p>",
+            "page-content": "",
+            "default-open": false
+          }
+        },
+        "pickup": {
+          "type": "pickup",
+          "disabled": true,
+          "settings": {}
+        },
+        "complementary-products-1": {
+          "type": "complementary-products",
+          "settings": {
+            "title": "Pairs well with",
+            "max-products": 3,
+            "collapsible-row-enabled": false
+          }
+        }
+      },
+      "block_order": [
+        "liquid_tdGgW7",
+        "heading",
+        "judge_me_reviews_preview_badge_EegLPn",
+        "vendor",
+        "price",
+        "options",
+        "liquid_Nih4Fx",
+        "liquid_NzdrbH",
+        "buy-buttons-1",
+        "liquid_WiWTVK",
+        "liquid_fztLGn",
+        "liquid_tEqMUn",
+        "social-sharing-1",
+        "description",
+        "collapsible-row-1",
+        "collapsible-row-2",
+        "collapsible-row-3",
+        "collapsible-row-4",
+        "pickup",
+        "complementary-products-1"
+      ],
+      "settings": {
+        "spacing-above": "medium",
+        "spacing-below": "none",
+        "container-width": "3",
+        "media-layout": "one",
+        "thumbnail-width": 80,
+        "media-gap": 2,
+        "text-column-width": 400,
+        "column-spacing": "close",
+        "text-alignment": "left",
+        "heading-enabled": false,
+        "heading-sizes-enabled": true,
+        "heading-size": 40,
+        "breadcrumbs-enabled": true,
+        "modal-enabled": true,
+        "variant-scroll-enabled": true,
+        "image-zoom-enabled": true,
+        "loop-enabled": false,
+        "mobile-spacing-above": "none",
+        "mobile-spacing-below": "large",
+        "mobile-text-alignment": "center",
+        "mobile-media-layout": "slideshow"
+      }
+    },
+    "image-with-text": {
+      "type": "image-with-text",
+      "disabled": true,
+      "settings": {
+        "border": "none",
+        "spacing-above": "none",
+        "spacing-below": "none",
+        "container-width": "6",
+        "background-color": "none",
+        "white-text": true,
+        "heading-type": "featured-heading",
+        "text-position": "overlay",
+        "overlap": false,
+        "text-horizontal-alignment": "left",
+        "text-vertical-alignment": "center",
+        "text-width": 500,
+        "overlay-style": "none",
+        "text-style": "eclipse-shadow",
+        "text-background-color": "transparent",
+        "image-display-type": "small",
+        "aspect-ratio": 56,
+        "parallax-enabled": true,
+        "overline": "",
+        "title": "Astrology gems",
+        "highlight-type": "italic",
+        "highlight-color": "accent-1",
+        "highlight-text": "none",
+        "description": "<p>Uncover how gemstones and metals attuned to your zodiac sign can enhance your energy and well-being. Dive into the mystical world where celestial influences meet exquisite craftsmanship, guiding you to choose pieces that reflect your cosmic identity and personal style. Explore how the stars can illuminate your path to finding meaningful, personalized adornments.</p>",
+        "link-url": "",
+        "button-style": "button-1",
+        "link-text": "View blog article",
+        "mobile-full-width": true,
+        "mobile-spacing-above": "none",
+        "mobile-spacing-below": "none",
+        "mobile-white-text": true,
+        "mobile-overlay": true,
+        "mobile-hide-description": false,
+        "mobile-button-style": "button-1",
+        "mobile-image-display-type": "original",
+        "mobile-aspect-ratio": 134,
+        "mobile-text-horizontal-alignment": "center",
+        "mobile-text-vertical-alignment": "center"
+      }
+    },
+    "testimonials": {
+      "type": "testimonials",
+      "disabled": true,
+      "settings": {
+        "border": "none",
+        "spacing-above": "large",
+        "spacing-below": "none",
+        "background-color": "none",
+        "outer-background": true,
+        "text-background-color": "transparent",
+        "white-text": false,
+        "section-alignment": "center",
+        "text-alignment": "center",
+        "container-width": "4",
+        "width": 4,
+        "image-shape": "circle",
+        "overline": "Customer Experiences",
+        "heading": "Trusted and Treasured",
+        "link-url": "",
+        "button-style": "button-1",
+        "link-text": "",
+        "mobile-spacing-above": "large",
+        "mobile-spacing-below": "none",
+        "mobile-heading-alignment": "left",
+        "mobile-text-alignment": "center",
+        "mobile-width": "1",
+        "mobile-media-layout": "slideshow"
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "border": "none",
+        "spacing-above": "large",
+        "spacing-below": "large",
+        "container-width": "4",
+        "background-color": "none",
+        "white-text": false,
+        "title": "You may also like",
+        "mobile-spacing-above": "large",
+        "mobile-spacing-below": "large"
+      }
+    },
+    "collapsible-rows": {
+      "type": "collapsible-rows",
+      "blocks": {
+        "collapsible-row-1": {
+          "type": "collapsible-row",
+          "disabled": true,
+          "settings": {
+            "heading": "What materials are used in your jewellery?",
+            "description": "<p><br/><strong>Materials & Finishes</strong></p><p>At House of Even, we work with carefully selected materials to ensure durability, comfort, and timeless beauty.</p><p>Our collections feature <strong>18K gold plated stainless steel using advanced PVD (Physical Vapour Deposition) technology</strong>, as well as <strong>14K gold plated PVD</strong>, <strong>sterling silver S925</strong>, and <strong>sterling silver finished with 24K gold plating</strong>.</p><p>PVD plating is a high-performance process that bonds gold to the metal at a molecular level, creating a finish that is significantly more durable than standard fashion plating. The result is jewellery that is <strong>waterproof, tarnish-resistant, and designed for everyday wear</strong>.</p><p>Many of our designs are finished with <strong>natural freshwater pearls, hand-selected crystals, and semi-precious gemstones</strong>, making each piece subtly unique.</p><p><strong>Hypoallergenic & Skin-Friendly</strong><br/><br/>Yes. All House of Even jewellery is <strong>nickel-free and lead-free</strong>, making it suitable for sensitive skin and comfortable for daily wear.</p><p><strong>Waterproof Jewellery</strong><br/><br/>Our PVD-coated and sterling silver pieces are designed to be worn in the shower, at the gym, or by the sea. To help preserve their finish over time, we recommend rinsing your jewellery with fresh water after swimming in salt or chlorinated water.</p>",
+            "page-content": "",
+            "default-open": false
+          }
+        },
+        "collapsible-row-2": {
+          "type": "collapsible-row",
+          "disabled": true,
+          "settings": {
+            "heading": "What is your return policy",
+            "description": "<p>We accept returns within 14 days of delivery for jewellery that is unworn, in original condition, and in original packaging. For hygiene reasons, earrings are not eligible for return.</p>",
+            "page-content": "",
+            "default-open": false
+          }
+        },
+        "collapsible-row-3": {
+          "type": "collapsible-row",
+          "disabled": true,
+          "settings": {
+            "heading": "IS YOUR JEWELLERY HYPOALLERGENIC?",
+            "description": "<p>Yes. Our jewellery is 100% nickel and lead-free, making it safe for sensitive skin and comfortable for daily wear.</p>",
+            "page-content": "",
+            "default-open": false
+          }
+        },
+        "collapsible-row-4": {
+          "type": "collapsible-row",
+          "disabled": true,
+          "settings": {
+            "heading": "Can I wear my jewellery in water?",
+            "description": "<p>Our PVD-coated pieces (18K and 14K gold PVD) are waterproof and tarnish-resistant, making them suitable for everyday wear — including showers, workouts, and swimming.</p><p>Sterling silver (S925 and 24K gold-plated sterling silver) is water-resistant but more delicate. We recommend removing these pieces before prolonged water exposure to maintain their finish and prevent natural oxidation.</p>",
+            "page-content": "",
+            "default-open": false
+          }
+        },
+        "collapsible-row-5": {
+          "type": "collapsible-row",
+          "disabled": true,
+          "settings": {
+            "heading": "IS YOUR JEWELLERY HYPOALLERGENIC?",
+            "description": "<p>Yes. All House of Even jewellery is <strong>100% nickel and lead-free</strong>, making it safe for sensitive skin and comfortable enough for everyday wear.</p>",
+            "page-content": "",
+            "default-open": false
+          }
+        }
+      },
+      "block_order": [
+        "collapsible-row-1",
+        "collapsible-row-2",
+        "collapsible-row-3",
+        "collapsible-row-4",
+        "collapsible-row-5"
+      ],
+      "disabled": true,
+      "settings": {
+        "border": "none",
+        "spacing-above": "medium",
+        "spacing-below": "medium",
+        "background-color": "none",
+        "white-text": false,
+        "container-width": "3",
+        "two-columns-enabled": true,
+        "heading": "Frequently Asked Questions",
+        "heading-alignment": "center",
+        "mobile-full-width": false,
+        "mobile-spacing-above": "large",
+        "mobile-spacing-below": "none"
+      }
+    },
+    "17705081116d8ee37d": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_featured_carousel_bKyHjy": {
+          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_featured_carousel_bKyHjy"
+      ],
+      "settings": {
+        "border": "none",
+        "spacing-above": "large",
+        "spacing-below": "large",
+        "container-width": "4",
+        "background-color": "none",
+        "white-text": false,
+        "text-alignment": "center",
+        "mobile-full-width": false,
+        "mobile-spacing-above": "medium",
+        "mobile-spacing-below": "medium",
+        "mobile-text-alignment": "center"
+      }
+    },
+    "17706008356fc49946": {
+      "type": "apps",
+      "blocks": {
+        "instafeed_app_block_feeds_gyLqPm": {
+          "type": "shopify://apps/instafeed/blocks/app-block-feeds/4169bff3-1d6b-44ad-9377-2ebc3d31f01c",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "instafeed_app_block_feeds_gyLqPm"
+      ],
+      "settings": {
+        "border": "none",
+        "spacing-above": "large",
+        "spacing-below": "large",
+        "container-width": "4",
+        "background-color": "none",
+        "white-text": false,
+        "text-alignment": "center",
+        "mobile-full-width": false,
+        "mobile-spacing-above": "medium",
+        "mobile-spacing-below": "medium",
+        "mobile-text-alignment": "center"
+      }
+    }
+  },
+  "order": [
+    "main-product",
+    "image-with-text",
+    "testimonials",
+    "related-products",
+    "collapsible-rows",
+    "17705081116d8ee37d",
+    "17706008356fc49946"
+  ]
+}

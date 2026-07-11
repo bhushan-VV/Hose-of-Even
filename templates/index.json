@@ -1,0 +1,658 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1763689033dd366d1f": {
+      "type": "_blocks",
+      "settings": {}
+    },
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slide-1": {
+          "type": "image",
+          "settings": {
+            "text-width": 575,
+            "text-horizontal-alignment": "center",
+            "text-vertical-alignment": "bottom",
+            "image": "shopify://shop_images/DSC_8084.jpg",
+            "overline": "DESIGNED TO CONNECT",
+            "title": "TELL YOUR STORY",
+            "highlight-type": "italic",
+            "highlight-color": "accent-1",
+            "highlight-text": "none",
+            "description": "<p>Born from symbols of light, balance, and connection, House of Even celebrates jewellery as an extension of who you are.<br/><br/>Mix charms. Change layers.<br/>Jewellery that evolves with you.</p>",
+            "link-url": "shopify://collections/even-connect",
+            "button-style": "button-1",
+            "link-text": "SHOP NOW",
+            "mobile-image": "shopify://shop_images/DSC_8084.jpg",
+            "mobile-text-horizontal-alignment": "center",
+            "mobile-text-vertical-alignment": "center",
+            "mobile-hide-description": false
+          }
+        },
+        "image_CDFerM": {
+          "type": "image",
+          "settings": {
+            "text-width": 500,
+            "text-horizontal-alignment": "center",
+            "text-vertical-alignment": "bottom",
+            "image": "shopify://shop_images/DSC_8304.jpg",
+            "overline": "Inspired by the Sun",
+            "title": "MADE TO LIVE IN",
+            "highlight-type": "italic",
+            "highlight-color": "dark",
+            "highlight-text": "light",
+            "description": "<p>Crafted in premium materials and designed to shine with you through every moment — effortless, durable, and filled with meaning.</p>",
+            "link-url": "shopify://collections/all",
+            "button-style": "button-2",
+            "link-text": "Shop now",
+            "mobile-image": "shopify://shop_images/DSC_8304.jpg",
+            "mobile-text-horizontal-alignment": "center",
+            "mobile-text-vertical-alignment": "bottom",
+            "mobile-hide-description": false
+          }
+        },
+        "image_EU9n3r": {
+          "type": "image",
+          "settings": {
+            "text-width": 400,
+            "text-horizontal-alignment": "left",
+            "text-vertical-alignment": "bottom",
+            "image": "shopify://shop_images/DSC_3577_ff8ac240-acec-47fa-b4fb-9409dcd8be3b.jpg",
+            "overline": "NEW ARRIVAL",
+            "title": "Love & Lucky",
+            "highlight-type": "italic",
+            "highlight-color": "accent-2",
+            "highlight-text": "none",
+            "description": "<p>Vintage inspired charms designed to be collected over time. Symbols of love, luck and the stories you choose to carry.</p>",
+            "link-url": "shopify://collections/new-in-1",
+            "button-style": "button-1",
+            "link-text": "SHOP NOW",
+            "mobile-image": "shopify://shop_images/DSC_3577_ff8ac240-acec-47fa-b4fb-9409dcd8be3b.jpg",
+            "mobile-text-horizontal-alignment": "center",
+            "mobile-text-vertical-alignment": "bottom",
+            "mobile-hide-description": false
+          }
+        },
+        "image_cMR3XV": {
+          "type": "image",
+          "settings": {
+            "text-width": 400,
+            "text-horizontal-alignment": "center",
+            "text-vertical-alignment": "center",
+            "image": "shopify://shop_images/DSC_3093.jpg",
+            "overline": "BECAUSE IS ALWAYS SUMMER SOMEWHERE",
+            "title": "Never Ending Summer",
+            "highlight-type": "italic",
+            "highlight-color": "accent-2",
+            "highlight-text": "none",
+            "description": "<p>Black tones. Mint hues. Cream enamel.<br/>A moodier kind of summer.</p><p><strong>Never Ending Summer Is Now Live</strong></p>",
+            "link-url": "shopify://collections/never-ending-summer",
+            "button-style": "button-1",
+            "link-text": "SHOP NOW",
+            "mobile-image": "shopify://shop_images/DSC_3093.jpg",
+            "mobile-text-horizontal-alignment": "center",
+            "mobile-text-vertical-alignment": "bottom",
+            "mobile-hide-description": false
+          }
+        },
+        "image_aEBKJM": {
+          "type": "image",
+          "settings": {
+            "text-width": 650,
+            "text-horizontal-alignment": "center",
+            "text-vertical-alignment": "center",
+            "image": "shopify://shop_images/DSC_7992_55e1d643-e8d5-4157-bbbb-8c31a7e6f700.jpg",
+            "overline": "A SMALL SELECTION, GENTLY RELEASED.",
+            "title": "THE QUIET RELEASE",
+            "highlight-type": "italic",
+            "highlight-color": "dark",
+            "highlight-text": "none",
+            "description": "<h3>UP TO 40% OFF ON SELECTED PIECES.</h3>",
+            "link-url": "shopify://collections/sale",
+            "button-style": "button-2",
+            "link-text": "SHOP NOW",
+            "mobile-image": "shopify://shop_images/DSC_7992_55e1d643-e8d5-4157-bbbb-8c31a7e6f700.jpg",
+            "mobile-text-horizontal-alignment": "center",
+            "mobile-text-vertical-alignment": "center",
+            "mobile-hide-description": false
+          }
+        }
+      },
+      "block_order": [
+        "slide-1",
+        "image_CDFerM",
+        "image_EU9n3r",
+        "image_cMR3XV",
+        "image_aEBKJM"
+      ],
+      "settings": {
+        "border": "none",
+        "spacing-above": "none",
+        "spacing-below": "none",
+        "background-color": "none",
+        "spacing-around-blocks": false,
+        "arrows-enabled": false,
+        "blocks-per-slide": 1,
+        "white-text": true,
+        "overlay-style": "darken-bottom",
+        "text-style": "none",
+        "text-background-color": "transparent",
+        "heading-type": "banner-heading",
+        "image-display-type": "x-large",
+        "aspect-ratio": 54,
+        "auto-rotate": true,
+        "rotate-frequency": 6,
+        "transition-type": "wipe",
+        "mobile-spacing-above": "none",
+        "mobile-spacing-below": "none",
+        "mobile-image-display-type": "small",
+        "mobile-aspect-ratio": 134,
+        "blocks-per-slide-mobile": "1"
+      }
+    },
+    "featured-products-1": {
+      "type": "featured-products",
+      "disabled": true,
+      "settings": {
+        "border": "none",
+        "spacing-above": "large",
+        "spacing-below": "large",
+        "background-color": "none",
+        "white-text": false,
+        "display-type": "slideshow",
+        "products-per-row--desktop": "4",
+        "section-alignment": "center",
+        "product-list": [],
+        "heading": "New Arrivals",
+        "link-url": "",
+        "button-style": "button-1",
+        "link-text": "",
+        "mobile-spacing-above": "large",
+        "mobile-spacing-below": "large",
+        "mobile-heading-alignment": "left",
+        "products-per-row--mobile": "2"
+      }
+    },
+    "featured_collection_yc37QD": {
+      "type": "featured-collection",
+      "disabled": true,
+      "name": "Featured collection",
+      "settings": {
+        "border": "none",
+        "spacing-above": "large",
+        "spacing-below": "large",
+        "background-color": "none",
+        "white-text": false,
+        "section-alignment": "center",
+        "display-type": "slideshow",
+        "products-per-row--desktop": "3",
+        "collection": "even-connect",
+        "max-blocks": 6,
+        "heading": "EVEN CONNECT",
+        "button-style": "button-3",
+        "link-text": "View collection",
+        "mobile-spacing-above": "large",
+        "mobile-spacing-below": "large",
+        "mobile-heading-alignment": "left",
+        "products-per-row--mobile": "2"
+      }
+    },
+    "image-with-text": {
+      "type": "image-with-text",
+      "settings": {
+        "border": "both",
+        "spacing-above": "large",
+        "spacing-below": "large",
+        "container-width": "6",
+        "background-color": "light",
+        "white-text": false,
+        "heading-type": "featured-heading",
+        "text-position": "left",
+        "overlap": false,
+        "text-horizontal-alignment": "left",
+        "text-vertical-alignment": "center",
+        "text-width": 500,
+        "overlay-style": "none",
+        "text-style": "none",
+        "text-background-color": "transparent",
+        "image-display-type": "x-small",
+        "aspect-ratio": 80,
+        "parallax-enabled": false,
+        "image": "shopify://shop_images/DSC_7990.jpg",
+        "overline": "",
+        "title": "Crafted With Intention",
+        "highlight-type": "bold",
+        "highlight-color": "light",
+        "highlight-text": "none",
+        "description": "<p>Every House of Even piece is thoughtfully designed and made with care — using premium materials, meaningful symbols, and timeless craftsmanship to bring you jewellery that carries light, soul, and long-lasting beauty.</p>",
+        "link-url": "shopify://collections",
+        "button-style": "button-1",
+        "link-text": "EXPLORE OUR COLLECTIONS",
+        "mobile-full-width": true,
+        "mobile-spacing-above": "small",
+        "mobile-spacing-below": "none",
+        "mobile-image": "shopify://shop_images/18k_gold_jewelry_australia.webp",
+        "mobile-white-text": true,
+        "mobile-overlay": true,
+        "mobile-hide-description": false,
+        "mobile-button-style": "button-1",
+        "mobile-image-display-type": "small",
+        "mobile-aspect-ratio": 134,
+        "mobile-text-horizontal-alignment": "center",
+        "mobile-text-vertical-alignment": "center"
+      }
+    },
+    "shop-the-banner": {
+      "type": "shop-the-banner",
+      "blocks": {
+        "hotspot_yHajeL": {
+          "type": "hotspot",
+          "settings": {
+            "product": "the-sol-connector-necklace",
+            "horizontal": 51,
+            "vertical": 52,
+            "mobile-horizontal": 50,
+            "mobile-vertical": 52
+          }
+        },
+        "hotspot_K8tGkB": {
+          "type": "hotspot",
+          "settings": {
+            "product": "lua-connector-necklace",
+            "horizontal": 50,
+            "vertical": 44,
+            "mobile-horizontal": 50,
+            "mobile-vertical": 43
+          }
+        },
+        "hotspot-3": {
+          "type": "hotspot",
+          "settings": {
+            "product": "isla-connector-necklace",
+            "horizontal": 42,
+            "vertical": 26,
+            "mobile-horizontal": 61,
+            "mobile-vertical": 23
+          }
+        }
+      },
+      "block_order": [
+        "hotspot_yHajeL",
+        "hotspot_K8tGkB",
+        "hotspot-3"
+      ],
+      "settings": {
+        "border": "none",
+        "spacing-above": "large",
+        "spacing-below": "large",
+        "container-width": "2",
+        "background-color": "none",
+        "hotspot-color": "accent-2",
+        "heading": "Shop the look",
+        "heading-alignment": "center",
+        "image": "shopify://shop_images/DSC_8361.jpg",
+        "mobile-full-width": true,
+        "mobile-spacing-above": "large",
+        "mobile-spacing-below": "small",
+        "mobile-image": "shopify://shop_images/DSC_8361.jpg"
+      }
+    },
+    "collection-with-highlight": {
+      "type": "collection-with-highlight",
+      "settings": {
+        "border": "none",
+        "spacing-above": "large",
+        "spacing-below": "large",
+        "background-color": "none",
+        "container-width": "5",
+        "product-white-text": false,
+        "max-products": 12,
+        "products-per-row--desktop": "2",
+        "vertical-alignment": "top",
+        "reverse-layout": false,
+        "white-text": true,
+        "heading-type": "section-heading",
+        "text-horizontal-alignment": "center",
+        "text-vertical-alignment": "center",
+        "text-width": 500,
+        "overlay-style": "darken-bottom",
+        "text-style": "none",
+        "image-disabled": false,
+        "image-display-type": "medium",
+        "aspect-ratio": 56,
+        "collection": "never-ending-summer",
+        "product-list": [],
+        "image": "shopify://shop_images/DSC_3351.jpg",
+        "overline": "SUN DRENCHED TONES",
+        "heading": "Never Ending Summer",
+        "highlight-type": "italic",
+        "highlight-color": "accent-1",
+        "highlight-text": "none",
+        "description": "<p>Rich black tones, soft creams, and cool mint accents come together in a collection inspired by Mediterranean summers, vintage treasures, and pieces collected along the way.</p><p>Designed to feel nostalgic, effortless, and made to live in.</p>",
+        "link-url": "shopify://collections/never-ending-summer",
+        "button-style": "button-2",
+        "link-text": "View collection",
+        "mobile-spacing-above": "none",
+        "mobile-spacing-below": "none",
+        "mobile-media-layout": "slideshow",
+        "products-per-row--mobile": "2",
+        "mobile-image": "shopify://shop_images/DSC_3351.jpg",
+        "mobile-image-display-type": "original",
+        "mobile-aspect-ratio": 134,
+        "mobile-hide-description": false,
+        "mobile-text-horizontal-alignment": "center",
+        "mobile-text-vertical-alignment": "center"
+      }
+    },
+    "countdown": {
+      "type": "countdown",
+      "blocks": {
+        "overline": {
+          "type": "overline",
+          "settings": {
+            "overline": "Don't miss out!"
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading-type": "section-heading",
+            "title": "Timeless treasures, fleeting prices",
+            "highlight-type": "none",
+            "highlight-color": "",
+            "highlight-text": ""
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "description": "<p>Discover stunning jewelry pieces designed to elevate every look — but act fast. These exclusive offers won't last forever, so don't miss your chance to add a little extra sparkle to your collection.</p>",
+            "description-type": "featured-paragraph",
+            "mobile-hide-enabled": false
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "style": "button-2",
+            "link-url": "",
+            "link-text": "Shop now"
+          }
+        }
+      },
+      "block_order": [
+        "overline",
+        "heading",
+        "description",
+        "button"
+      ],
+      "disabled": true,
+      "settings": {
+        "border": "none",
+        "spacing-above": "large",
+        "spacing-below": "large",
+        "container-width": "3",
+        "background-color": "dark",
+        "outer-background": true,
+        "reverse-layout": false,
+        "text-alignment": "left",
+        "white-text": true,
+        "text-style": "none",
+        "overlay-style": "darken",
+        "parallax-enabled": true,
+        "timer-bg-color": "dark",
+        "light-number": true,
+        "number-size": 40,
+        "expiry-date": "DD-MM-YYYY",
+        "expiry-hours": 0,
+        "expiry-minutes": 0,
+        "hide-when-expired": true,
+        "show-button-when": "always",
+        "mobile-spacing-above": "large",
+        "mobile-spacing-below": "large",
+        "mobile-text-alignment": "center",
+        "mobile-number-size": 19
+      }
+    },
+    "overlapping-media": {
+      "type": "overlapping-media",
+      "blocks": {
+        "image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Cowrie_Protection_Charm.jpg",
+            "mobile-image": "shopify://shop_images/Cowrie_Protection_Charm.jpg"
+          }
+        },
+        "image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/isla_connector_necklace_gold_jewelry.jpg",
+            "mobile-image": "shopify://shop_images/isla_connector_necklace_gold_jewelry.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image-1",
+        "image-2"
+      ],
+      "settings": {
+        "border": "none",
+        "spacing-above": "large",
+        "spacing-below": "large",
+        "background-color": "none",
+        "container-width": "4",
+        "reverse-layout": true,
+        "white-text": false,
+        "heading-type": "featured-heading",
+        "text-alignment": "left",
+        "text-column-width": 375,
+        "animation-enabled": true,
+        "image-offset": 48,
+        "overline": "",
+        "title": "Who We Are",
+        "highlight-type": "italic",
+        "highlight-color": "accent-1",
+        "highlight-text": "none",
+        "description": "<p><em>House of Even</em> is a jewellery brand inspired by the sun, symbolism, and the art of personal styling.<br/><br/>Designed to be layered, transformed, and collected over time, our pieces are created to evolve with you through every season, trip, and version of yourself.<br/><br/>Our signature EVEN Connect collection allows you to mix charms, stones, and connectors to create jewellery that feels personal, meaningful, and entirely your own.<br/><br/>Wear your story. Make it yours.</p>",
+        "link-url": "shopify://collections/even-connect",
+        "button-style": "button-1",
+        "link-text": "BUILD YOUR STORY",
+        "mobile-spacing-above": "small",
+        "mobile-spacing-below": "small",
+        "mobile-text-alignment": "center"
+      }
+    },
+    "featured-products-2": {
+      "type": "featured-products",
+      "disabled": true,
+      "settings": {
+        "border": "none",
+        "spacing-above": "large",
+        "spacing-below": "large",
+        "background-color": "none",
+        "white-text": false,
+        "display-type": "grid",
+        "products-per-row--desktop": "4",
+        "section-alignment": "center",
+        "product-list": [],
+        "heading": "Best sellers",
+        "link-url": "",
+        "button-style": "button-1",
+        "link-text": "",
+        "mobile-spacing-above": "large",
+        "mobile-spacing-below": "large",
+        "mobile-heading-alignment": "left",
+        "products-per-row--mobile": "2"
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading-type": "section-heading",
+            "title": "JOIN THE HOUSE",
+            "highlight-type": "italic",
+            "highlight-color": "accent-1",
+            "highlight-text": "none"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "description": "<p>Step into our inner circle. Get 10% off, early access to new arrivals, and special editions</p>",
+            "mobile-hide-enabled": false
+          }
+        },
+        "newsletter_atVVkA": {
+          "type": "newsletter",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading",
+        "description",
+        "newsletter_atVVkA"
+      ],
+      "settings": {
+        "border": "none",
+        "spacing-above": "large",
+        "spacing-below": "large",
+        "container-width": "4",
+        "background-color": "accent-2",
+        "outer-background": true,
+        "reverse-layout": false,
+        "white-text": false,
+        "text-alignment": "left",
+        "image-disabled": false,
+        "image": "shopify://shop_images/DSC_8196.png",
+        "image-display-type": "x-small",
+        "aspect-ratio": 56,
+        "parallax-enabled": false,
+        "mobile-spacing-above": "small",
+        "mobile-spacing-below": "large",
+        "mobile-text-alignment": "left",
+        "mobile-image": "shopify://shop_images/DSC_8196.png",
+        "mobile-image-display-type": "original",
+        "mobile-aspect-ratio": 134
+      }
+    },
+    "featured-blog": {
+      "type": "featured-blog",
+      "disabled": true,
+      "settings": {
+        "border": "none",
+        "spacing-above": "large",
+        "spacing-below": "large",
+        "background-color": "none",
+        "white-text": false,
+        "section-alignment": "center",
+        "text-alignment": "center",
+        "container-width": "5",
+        "tag-select": "pinned",
+        "show-cta": true,
+        "show-date": true,
+        "show-excerpt": true,
+        "blog": "news",
+        "blog-heading": "",
+        "button-style": "button-1",
+        "view-more-text": "",
+        "mobile-spacing-above": "large",
+        "mobile-spacing-below": "large",
+        "mobile-heading-alignment": "left",
+        "mobile-text-alignment": "center",
+        "mobile-media-layout": "slideshow"
+      }
+    },
+    "17774183135534f13d": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_cards_carousel_wR3QDL": {
+          "type": "shopify://apps/judge-me-reviews/blocks/cards_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "show_sample_reviews": true,
+            "reviews_selection": "all",
+            "products": [
+              "isla-connector-necklace",
+              "lua-connector-necklace",
+              "the-sol-connector-necklace",
+              "baroque-pearl-charm",
+              "divine-hand-charm",
+              "solar-aura-charm",
+              "huggie-earrings-18k-gold-pvd",
+              "fish-charm",
+              "fishbone-charm-with-black-obsidian",
+              "pink-ocean-shell-necklace"
+            ],
+            "star_rating": "all",
+            "show_review_media": true,
+            "display_order": "media_first",
+            "no_image_fallback": "review_text_only",
+            "max_reviews": 30,
+            "review_length": "small",
+            "text_size": "small",
+            "image_ratio": "1.33",
+            "reviews_shown": 4,
+            "show_reviewer_name": true,
+            "show_product_name": true,
+            "hide_arrows_mobile": true,
+            "arrows_position": "sides",
+            "max_width": 1100,
+            "corner_styling": "round",
+            "header_text_color": "#000000",
+            "text_color": "#000000",
+            "card_color": "#f9f9f9",
+            "stars_color": "#dfb869",
+            "arrows_color": "#000000",
+            "transition_speed": 5,
+            "header_text": "Loved by women who wear their story",
+            "show_average_rating": true,
+            "rating_display": "default"
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_cards_carousel_wR3QDL"
+      ],
+      "settings": {
+        "border": "none",
+        "spacing-above": "large",
+        "spacing-below": "large",
+        "container-width": "4",
+        "background-color": "none",
+        "white-text": false,
+        "text-alignment": "center",
+        "mobile-full-width": false,
+        "mobile-spacing-above": "medium",
+        "mobile-spacing-below": "medium",
+        "mobile-text-alignment": "center"
+      }
+    }
+  },
+  "order": [
+    "1763689033dd366d1f",
+    "slideshow",
+    "featured-products-1",
+    "featured_collection_yc37QD",
+    "image-with-text",
+    "shop-the-banner",
+    "collection-with-highlight",
+    "countdown",
+    "overlapping-media",
+    "featured-products-2",
+    "newsletter",
+    "featured-blog",
+    "17774183135534f13d"
+  ]
+}

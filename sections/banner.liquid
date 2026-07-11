@@ -1,0 +1,572 @@
+{%- liquid
+  assign aspect_ratio = 100.0 | divided_by: section.settings.aspect-ratio
+  assign bg_image = section.settings.bg-image
+  assign description = section.settings.description
+  assign display_type = section.settings.image-display-type
+  assign fg_type = section.settings.fg-type
+  assign fg_image = section.settings.fg-image
+  assign fg_image_width = section.settings.fg-image-width
+  assign fg_mobile_image_width = section.settings.fg-mobile-image-width
+  assign highlight_type = section.settings.highlight-type
+  assign highlight_color = section.settings.highlight-color
+  assign highlight_text = section.settings.highlight-text
+  assign link_text = section.settings.link-text
+  assign link_url = section.settings.link-url
+  assign mobile_aspect_ratio = 100.0 | divided_by: section.settings.mobile-aspect-ratio
+  assign mobile_bg_image = section.settings.mobile-bg-image
+  assign mobile_display_type = section.settings.mobile-image-display-type
+  assign mobile_hide_description = section.settings.mobile-hide-description
+  assign mobile_text_x_alignment = section.settings.mobile-text-horizontal-alignment
+  assign mobile_text_y_alignment = section.settings.mobile-text-vertical-alignment
+  assign overlay_style = section.settings.overlay-style
+  assign overline = section.settings.overline
+  assign text_bg_color = section.settings.text-background-color
+  assign text_style = section.settings.text-style
+  assign text_width = section.settings.text-width
+  assign text_x_alignment = section.settings.text-horizontal-alignment
+  assign text_y_alignment = section.settings.text-vertical-alignment
+  assign title = section.settings.title
+  assign white_text = section.settings.white-text
+-%}
+
+{%- if request.page_type == 'index' -%}
+  <div
+    class="banner--root"
+    data-section-id="{{ section.id }}"
+    data-section-type="index_banner"
+    data-container-width="6"
+    data-mobile-full-width="true"
+    data-mobile-spacing-above="none"
+    data-mobile-spacing-below="none"
+    data-mobile-full-width="true"
+    data-spacing-above="none"
+    data-spacing-below="none"
+  >
+    <div class="banner--wrapper">
+      {%- if bg_image -%}
+        {%-
+          render 'image',
+          image: bg_image,
+          aspect_ratio: aspect_ratio,
+          display_type: display_type,
+          full_width: true,
+          mobile_aspect_ratio: mobile_aspect_ratio,
+          mobile_display_type: mobile_display_type,
+          mobile_full_width: true,
+          mobile_image: mobile_bg_image,
+          overlay_style: overlay_style,
+          parallax: true,
+          sizes: '100vw'
+        -%}
+      {%- else -%}
+        {%-
+          render 'placeholder',
+          type: 'lifestyle',
+          aspect_ratio: aspect_ratio,
+          display_type: display_type,
+          full_width: true,
+          mobile_aspect_ratio: mobile_aspect_ratio,
+          mobile_display_type: mobile_display_type,
+          mobile_full_width: true,
+          overlay_style: overlay_style,
+          parallax: true,
+          placeholder_index: 2
+        -%}
+      {%- endif -%}
+
+      <div class="banner--foreground-container">
+        {%- if fg_type == 'text' -%}
+          {%-
+            render 'stacked-text',
+            bg_color: text_bg_color,
+            cover_link: false,
+            description: description,
+            heading_type: 'banner-heading',
+            highlight_color: highlight_color,
+            highlight_text: highlight_text,
+            highlight_type: highlight_type,
+            id: section.id,
+            white_text: white_text,
+            link_text: link_text,
+            link_url: link_url,
+            mobile_hide_description: mobile_hide_description,
+            mobile_x_alignment: mobile_text_x_alignment,
+            mobile_y_alignment: mobile_text_y_alignment,
+            overline: overline,
+            style: text_style,
+            title: title,
+            width: text_width,
+            x_alignment: text_x_alignment,
+            y_alignment: text_y_alignment
+          -%}
+
+        {%- elsif fg_type == 'image' and fg_image != blank -%}
+          <div
+            class="banner--foreground-image"
+            style="--fg-width:{{ fg_image_width }}px;--fg-mobile-width:{{ fg_mobile_image_width }}px;"
+          >
+            {{-
+              fg_image |
+              image_url: width: fg_image.width |
+              image_tag:
+                widths: "300, 500, 800, 1000, 1200, 1500, 1800, 2100, 2400, 3000",
+                sizes: '100vw'
+            -}}
+          </div>
+
+        {%- endif -%}
+      </div>
+    </div>
+  </div>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Banner",
+  "class": "section--banner",
+  "settings": [
+    {
+      "type": "paragraph",
+      "content": "Only appears on the home page"
+    },
+    {
+      "type": "header",
+      "content": "Background"
+    },
+    {
+      "type": "image_picker",
+      "id": "bg-image",
+      "label": "Image",
+      "info": "1400 x 800px recommended"
+    },
+    {
+      "id": "mobile-bg-image",
+      "label": "Mobile image (optional)",
+      "type": "image_picker",
+      "info": "825 x 1100px recommended"
+    },
+    {
+      "id": "image-display-type",
+      "label": "Image aspect ratio",
+      "type": "select",
+      "options": [
+        {
+          "label": "Original aspect ratio",
+          "value": "original"
+        },
+        {
+          "label": "Adjustable aspect ratio",
+          "value": "aspect-ratio"
+        },
+        {
+          "label": "Extra small",
+          "value": "x-small"
+        },
+        {
+          "label": "Small",
+          "value": "small"
+        },
+        {
+          "label": "Medium",
+          "value": "medium"
+        },
+        {
+          "label": "Large",
+          "value": "large"
+        },
+        {
+          "label": "Extra large",
+          "value": "x-large"
+        },
+        {
+          "label": "Fit screen",
+          "value": "fit-screen"
+        }
+      ],
+      "default": "fit-screen"
+    },
+    {
+      "id": "aspect-ratio",
+      "label": "Adjustable aspect ratio",
+      "type": "range",
+      "min": 24,
+      "max": 200,
+      "step": 2,
+      "default": 56,
+      "visible_if": "{{ section.settings.image-display-type == 'aspect-ratio' }}"
+    },
+    {
+      "id": "mobile-image-display-type",
+      "label": "Mobile image aspect ratio",
+      "type": "select",
+      "options": [
+        {
+          "label": "Original aspect ratio",
+          "value": "original"
+        },
+        {
+          "label": "Adjustable aspect ratio",
+          "value": "aspect-ratio"
+        },
+        {
+          "label": "Extra small",
+          "value": "x-small"
+        },
+        {
+          "label": "Small",
+          "value": "small"
+        },
+        {
+          "label": "Medium",
+          "value": "medium"
+        },
+        {
+          "label": "Large",
+          "value": "large"
+        },
+        {
+          "label": "Extra large",
+          "value": "x-large"
+        },
+        {
+          "label": "Fit screen",
+          "value": "fit-screen"
+        }
+      ],
+      "default": "large"
+    },
+    {
+      "id": "mobile-aspect-ratio",
+      "label": "Mobile adjustable aspect ratio",
+      "type": "range",
+      "min": 32,
+      "max": 200,
+      "step": 2,
+      "default": 134,
+      "visible_if": "{{ section.settings.mobile-image-display-type == 'aspect-ratio' }}"
+    },
+    {
+      "type": "header",
+      "content": "Foreground"
+    },
+    {
+      "type": "radio",
+      "id": "fg-type",
+      "options": [
+        { "value": "image", "label": "Image" },
+        { "value": "text", "label": "Text" }
+      ],
+      "default": "text",
+      "label": "Type"
+    },
+    {
+      "type": "header",
+      "content": "Image options"
+    },
+    {
+      "type": "image_picker",
+      "id": "fg-image",
+      "label": "Image"
+    },
+    {
+      "label": "Image max-width",
+      "id": "fg-image-width",
+      "type": "range",
+      "min": 100,
+      "max": 800,
+      "step": 25,
+      "unit": "px",
+      "default": 500,
+      "info": "This is referring to the natural width and should be half the width of the image you uploaded to ensure it stays sharp on retina screens."
+    },
+    {
+      "label": "Mobile image max-width",
+      "id": "fg-mobile-image-width",
+      "type": "range",
+      "min": 100,
+      "max": 600,
+      "step": 25,
+      "unit": "px",
+      "default": 300
+    },
+    {
+      "type": "header",
+      "content": "Text options"
+    },
+    {
+      "id": "text-width",
+      "label": "Text width",
+      "type": "range",
+      "min": 300,
+      "max": 800,
+      "step": 25,
+      "unit": "px",
+      "default": 400
+    },
+    {
+      "label": "Horizontal text position",
+      "id": "text-horizontal-alignment",
+      "type": "text_alignment",
+      "default": "center"
+    },
+    {
+      "label": "Vertical text position",
+      "id": "text-vertical-alignment",
+      "type": "select",
+      "options": [
+        { "label": "Bottom", "value": "bottom" },
+        { "label": "Center", "value": "center" },
+        { "label": "Top", "value": "top" }
+      ],
+      "default": "center"
+    },
+    {
+      "id": "text-background-color",
+      "label": "Text background color",
+      "type": "select",
+      "options": [
+        {
+          "label": "Transparent",
+          "value": "transparent"
+        },
+        {
+          "label": "Light",
+          "value": "light"
+        },
+        {
+          "label": "Dark",
+          "value": "dark"
+        },
+        {
+          "label": "Accent 1",
+          "value": "accent-1"
+        },
+        {
+          "label": "Accent 2",
+          "value": "accent-2"
+        },
+        {
+          "label": "Accent 3",
+          "value": "accent-3"
+        }
+      ],
+      "default": "transparent"
+    },
+    {
+      "id": "overlay-style",
+      "label": "Image darkness",
+      "type": "select",
+      "options": [
+        {
+          "label": "None",
+          "value": "none"
+        },
+        {
+          "label": "Darken entire image",
+          "value": "darken"
+        },
+        {
+          "label": "Darken top down",
+          "value": "darken-top"
+        },
+        {
+          "label": "Darken bottom up",
+          "value": "darken-bottom"
+        }
+      ],
+      "default": "darken-bottom",
+      "info": "Can enhance text visibility"
+    },
+    {
+      "id": "text-style",
+      "label": "Text shadows",
+      "type": "select",
+      "options": [
+        {
+          "label": "None",
+          "value": "none"
+        },
+        {
+          "label": "Text shadow",
+          "value": "text-shadow"
+        },
+        {
+          "label": "Oval shadow",
+          "value": "eclipse-shadow"
+        }
+      ],
+      "default": "none"
+    },
+    {
+      "id": "white-text",
+      "label": "Use white text color",
+      "type": "checkbox",
+      "default": true
+    },
+    {
+      "id": "mobile-hide-description",
+      "label": "Hide description in mobile",
+      "type": "checkbox",
+      "default": false
+    },
+    {
+      "label": "Mobile text horizontal alignment",
+      "id": "mobile-text-horizontal-alignment",
+      "type": "text_alignment",
+      "default": "center"
+    },
+    {
+      "label": "Mobile text alignment",
+      "id": "mobile-text-vertical-alignment",
+      "type": "select",
+      "options": [
+        { "label": "Center", "value": "center" },
+        { "label": "Bottom", "value": "bottom" }
+      ],
+      "default": "center"
+    },
+    {
+      "id": "overline",
+      "label": "Overline",
+      "type": "text",
+      "default": "Overline text"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Banner",
+      "info": "Highlight headings by wrapping text with square brackets, ie. This is [highlighted]."
+    },
+    {
+      "id": "highlight-type",
+      "label": "Highlight type",
+      "type": "select",
+      "options": [
+        {
+          "label": "Italic",
+          "value": "italic"
+        },
+        {
+          "label": "Bold",
+          "value": "bold"
+        },
+        {
+          "label": "Bold italic",
+          "value": "bold-italic"
+        },
+        {
+          "label": "Text color",
+          "value": "color"
+        },
+        {
+          "label": "Outlined",
+          "value": "outlined"
+        },
+        {
+          "label": "Highlight",
+          "value": "highlight"
+        },
+        {
+          "label": "Half highlight",
+          "value": "half-highlight"
+        },
+        {
+          "label": "Underline",
+          "value": "underline"
+        },
+        {
+          "label": "Reverse opacity",
+          "value": "reverse-opacity"
+        }
+      ],
+      "default": "italic"
+    },
+    {
+      "id": "highlight-color",
+      "label": "Highlight color",
+      "type": "select",
+      "options": [
+        {
+          "label": "Transparent",
+          "value": "transparent"
+        },
+        {
+          "label": "Light",
+          "value": "light"
+        },
+        {
+          "label": "Dark",
+          "value": "dark"
+        },
+        {
+          "label": "Accent 1",
+          "value": "accent-1"
+        },
+        {
+          "label": "Accent 2",
+          "value": "accent-2"
+        },
+        {
+          "label": "Accent 3",
+          "value": "accent-3"
+        }
+      ],
+      "default": "accent-2"
+    },
+    {
+      "id": "highlight-text",
+      "label": "Highlighted text color",
+      "type": "select",
+      "options": [
+        {
+          "label": "None",
+          "value": "none"
+        },
+        {
+          "label": "Light",
+          "value": "light"
+        },
+        {
+          "label": "Dark",
+          "value": "dark"
+        },
+        {
+          "label": "Accent 1",
+          "value": "accent-1"
+        },
+        {
+          "label": "Accent 2",
+          "value": "accent-2"
+        },
+        {
+          "label": "Accent 3",
+          "value": "accent-3"
+        }
+      ],
+      "default": "none"
+    },
+    {
+      "id": "description",
+      "label": "Description",
+      "type": "richtext",
+      "default": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.</p>"
+    },
+    {
+      "id": "link-url",
+      "label": "Link",
+      "type": "url",
+      "info": "Entire block will become a link when no link text or description."
+    },
+    {
+      "id": "link-text",
+      "label": "Optional link",
+      "type": "text",
+      "default": "Optional link"
+    }
+  ],
+  "enabled_on": {
+    "groups": ["header"]
+  }
+}
+{% endschema %}

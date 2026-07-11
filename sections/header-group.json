@@ -1,0 +1,499 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "header",
+  "name": "Header Group",
+  "sections": {
+    "banner": {
+      "type": "banner",
+      "disabled": true,
+      "settings": {
+        "bg-image": "shopify://shop_images/DSC_7997_e1fa4f9c-4033-47cf-be48-2dc5f5b4286d.jpg",
+        "image-display-type": "fit-screen",
+        "aspect-ratio": 56,
+        "mobile-image-display-type": "large",
+        "mobile-aspect-ratio": 134,
+        "fg-type": "text",
+        "fg-image": "shopify://shop_images/DSC_7997_e1fa4f9c-4033-47cf-be48-2dc5f5b4286d.jpg",
+        "fg-image-width": 500,
+        "fg-mobile-image-width": 300,
+        "text-width": 500,
+        "text-horizontal-alignment": "center",
+        "text-vertical-alignment": "center",
+        "text-background-color": "transparent",
+        "overlay-style": "darken-bottom",
+        "text-style": "none",
+        "white-text": true,
+        "mobile-hide-description": false,
+        "mobile-text-horizontal-alignment": "center",
+        "mobile-text-vertical-alignment": "center",
+        "overline": "Overline text",
+        "title": "Banner",
+        "highlight-type": "italic",
+        "highlight-color": "#ffdd66",
+        "highlight-text": "none",
+        "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.</p>",
+        "link-url": "",
+        "link-text": "Link text"
+      }
+    },
+    "announcement": {
+      "type": "announcement",
+      "blocks": {
+        "announcement_TLzFBY": {
+          "type": "announcement",
+          "settings": {
+            "icon": "none",
+            "text": "Announcement for sales, promos & more",
+            "link": "",
+            "hide-on-desktop": false,
+            "hide-on-mobile": false,
+            "page-enabled": false,
+            "page-url": "",
+            "countdown-enabled": true,
+            "timer-bg-color": "dark",
+            "light-number": true,
+            "expiry-date": "DD-MM-YYYY",
+            "expiry-hours": 0,
+            "expiry-minutes": 0,
+            "hide-when-expired": true
+          }
+        },
+        "announcement": {
+          "type": "announcement",
+          "settings": {
+            "icon": "none",
+            "text": "Black friday sale - up to 40% off",
+            "link": "",
+            "hide-on-desktop": false,
+            "hide-on-mobile": false,
+            "page-enabled": false,
+            "page-url": "",
+            "countdown-enabled": true,
+            "timer-bg-color": "dark",
+            "light-number": true,
+            "expiry-date": "DD-MM-YYYY",
+            "expiry-hours": 0,
+            "expiry-minutes": 0,
+            "hide-when-expired": true
+          }
+        }
+      },
+      "block_order": [
+        "announcement_TLzFBY",
+        "announcement"
+      ],
+      "disabled": true,
+      "settings": {
+        "sticky-enabled": false,
+        "border": "none",
+        "background-color": "accent-1",
+        "white-text": false,
+        "arrows-enabled": true,
+        "rotate-frequency": 7,
+        "show-social-icons": true,
+        "show-region-selector": true,
+        "show-locale-selector": true,
+        "scroll-text": true,
+        "animation-speed": 3
+      }
+    },
+    "blocks_FMgPLA": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_a0767de_bxRe7B": {
+          "type": "ai_gen_block_a0767de",
+          "settings": {
+            "item_1": "🇺🇸 FREE USA Shipping orders over $120 USD + US DUTIES COVERED by House of Even",
+            "item_2": "DISPATCH in 24hs*",
+            "item_3": "FREE AUSTRALIA domestic shipping on orders over AU$100",
+            "item_4": "WE SHIP WORLDWIDE",
+            "background_color": "#dfb869",
+            "text_color": "#ffffff",
+            "font_size": 10,
+            "font_weight": "500",
+            "vertical_padding": 12,
+            "item_spacing": 20,
+            "animation_speed": 30
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_a0767de_bxRe7B"
+      ],
+      "name": "Announcement slider",
+      "settings": {}
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "blog_gH67xF": {
+          "type": "blog",
+          "disabled": true,
+          "settings": {
+            "menu-item": "Journal",
+            "blog": "news",
+            "tag-select": "pinned",
+            "image-size": "natural",
+            "show-cta": false,
+            "show-date": false,
+            "show-excerpt": false
+          }
+        },
+        "product_list_3n3BEj": {
+          "type": "product-list",
+          "disabled": true,
+          "settings": {
+            "menu-item": "New arrivals",
+            "product-list": [
+              "12-days-of-light-personalised-advent-calendar"
+            ]
+          }
+        },
+        "product_list_kFPgx7": {
+          "type": "product-list",
+          "disabled": true,
+          "settings": {
+            "menu-item": "Best sellers",
+            "product-list": [
+              "lua-connector-necklace",
+              "aurora-necklace",
+              "divine-hand-charm",
+              "evil-eye-medallion-charm"
+            ]
+          }
+        },
+        "image_BDa343": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "menu-item": "Shop",
+            "image": "shopify://shop_images/DSC_8000_3db7666c-a5bc-48d8-9d43-72b762f62908.jpg",
+            "image-display-type": "aspect-ratio",
+            "aspect-ratio": 100,
+            "description": "On Sale",
+            "link-url": "",
+            "mobile-image-display-type": "original",
+            "mobile-aspect-ratio": 134
+          }
+        },
+        "image_MUQjri": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "menu-item": "Shop",
+            "image": "shopify://shop_images/DSC_7997_e1fa4f9c-4033-47cf-be48-2dc5f5b4286d.jpg",
+            "image-display-type": "aspect-ratio",
+            "aspect-ratio": 100,
+            "description": "New",
+            "link-url": "",
+            "mobile-image-display-type": "original",
+            "mobile-aspect-ratio": 134
+          }
+        },
+        "toolbar_VhKHEE": {
+          "type": "toolbar",
+          "disabled": true,
+          "settings": {
+            "bottom-border": true,
+            "text-alignment": "center",
+            "text": "<p>LAUNCH PARTY — Enjoy 15% Sitewide</p>",
+            "show-region-selector": true,
+            "show-locale-selector": true
+          }
+        }
+      },
+      "block_order": [
+        "blog_gH67xF",
+        "product_list_3n3BEj",
+        "product_list_kFPgx7",
+        "image_BDa343",
+        "image_MUQjri",
+        "toolbar_VhKHEE"
+      ],
+      "settings": {
+        "layout": "drawer",
+        "background-color": "light",
+        "white-menu-background": true,
+        "bottom-border": true,
+        "white-text": false,
+        "hover-disabled": true,
+        "sticky-enabled": true,
+        "hide-on-scroll": false,
+        "reduce-height": true,
+        "overlap-behavior": "center-below",
+        "logo-height": 40,
+        "mobile-logo-height": 20,
+        "transparent-enabled": false,
+        "transparent-white-text": true,
+        "transparent-logo": "shopify://shop_images/b6cae8347cfede950499ecdd2271dba5-removebg-preview.png",
+        "menu": "main-menu",
+        "search-enabled": true,
+        "icons-enabled": true,
+        "highlight-item": "Sale",
+        "highlight-color": "#dfb869",
+        "modal-item": "",
+        "modal-content": "contact",
+        "modal-background-color": "none",
+        "modal-white-text": false,
+        "show-region-selector": true,
+        "show-locale-selector": false
+      }
+    },
+    "split-announcements": {
+      "type": "split-announcements",
+      "blocks": {
+        "store-message-1": {
+          "type": "store-message",
+          "settings": {
+            "icon": "none",
+            "heading": "Heading",
+            "description": "Description",
+            "link-url": ""
+          }
+        },
+        "store-message-2": {
+          "type": "store-message",
+          "settings": {
+            "icon": "none",
+            "heading": "Heading",
+            "description": "Description",
+            "link-url": ""
+          }
+        },
+        "store-message-3": {
+          "type": "store-message",
+          "settings": {
+            "icon": "none",
+            "heading": "Heading",
+            "description": "Description",
+            "link-url": ""
+          }
+        }
+      },
+      "block_order": [
+        "store-message-1",
+        "store-message-2",
+        "store-message-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "home-page-only": true,
+        "border": "none",
+        "background-color": "none",
+        "white-text": false,
+        "icon": "none",
+        "heading": "Heading",
+        "description": "Description",
+        "link-url": ""
+      }
+    },
+    "image_with_text_87FUwk": {
+      "type": "image-with-text",
+      "disabled": true,
+      "name": "Image with text",
+      "settings": {
+        "border": "none",
+        "spacing-above": "small",
+        "spacing-below": "small",
+        "container-width": "6",
+        "background-color": "none",
+        "white-text": false,
+        "heading-type": "section-heading",
+        "text-position": "right",
+        "overlap": false,
+        "text-horizontal-alignment": "center",
+        "text-vertical-alignment": "center",
+        "text-width": 400,
+        "overlay-style": "darken-bottom",
+        "text-style": "none",
+        "text-background-color": "transparent",
+        "image-display-type": "medium",
+        "aspect-ratio": 56,
+        "parallax-enabled": false,
+        "image": "shopify://shop_images/DSC_7993.jpg",
+        "overline": "Jewellery With Meaning",
+        "title": "Made to Live In",
+        "highlight-type": "bold-italic",
+        "highlight-color": "dark",
+        "highlight-text": "dark",
+        "description": "<p><strong><br/>House of Even was created with a simple belief: every woman carries stories worth wearing.<br/><br/>Our jewellery honours those stories — the ones written in your dreams, your intuition, your memories, and all the moments where you rediscover who you are.<br/><br/>Each charm represents symbolism, each stone carries intention, and each piece becomes a chapter of your life.<br/><br/>We don’t design jewellery to be worn once.<br/><br/>We design jewellery to be lived in.</strong></p>",
+        "link-url": "",
+        "button-style": "button-1",
+        "link-text": "",
+        "mobile-full-width": true,
+        "mobile-spacing-above": "small",
+        "mobile-spacing-below": "small",
+        "mobile-image": "shopify://shop_images/DSC_7993.jpg",
+        "mobile-white-text": true,
+        "mobile-overlay": true,
+        "mobile-hide-description": false,
+        "mobile-button-style": "button-1",
+        "mobile-image-display-type": "small",
+        "mobile-aspect-ratio": 134,
+        "mobile-text-horizontal-alignment": "center",
+        "mobile-text-vertical-alignment": "center"
+      }
+    },
+    "image_with_text_iKxJzX": {
+      "type": "image-with-text",
+      "disabled": true,
+      "name": "Image with text",
+      "settings": {
+        "border": "none",
+        "spacing-above": "small",
+        "spacing-below": "small",
+        "container-width": "6",
+        "background-color": "none",
+        "white-text": false,
+        "heading-type": "section-heading",
+        "text-position": "top",
+        "overlap": false,
+        "text-horizontal-alignment": "center",
+        "text-vertical-alignment": "center",
+        "text-width": 400,
+        "overlay-style": "darken-bottom",
+        "text-style": "none",
+        "text-background-color": "transparent",
+        "image-display-type": "medium",
+        "aspect-ratio": 56,
+        "parallax-enabled": false,
+        "image": "shopify://shop_images/gold_jewelry_australia.jpg",
+        "overline": "Jewellery With Meaning",
+        "title": "The Meaning Behind EVEN",
+        "highlight-type": "bold-italic",
+        "highlight-color": "dark",
+        "highlight-text": "dark",
+        "description": "<p><strong>There are rare moments in life where everything feels aligned — moments of balance, clarity, and inner light.<br/><br/>That is the essence of EVEN. </strong></p><p><strong>House_of_Even_About_and_Founder…</strong></p><p><strong>House of Even represents harmony — the balance between strength and softness, beauty and purpose, intuition and action, the sun and the moon within every woman. </strong></p><p></p>",
+        "link-url": "",
+        "button-style": "button-1",
+        "link-text": "",
+        "mobile-full-width": true,
+        "mobile-spacing-above": "small",
+        "mobile-spacing-below": "small",
+        "mobile-image": "shopify://shop_images/gold_jewelry_australia.jpg",
+        "mobile-white-text": true,
+        "mobile-overlay": false,
+        "mobile-hide-description": false,
+        "mobile-button-style": "button-1",
+        "mobile-image-display-type": "small",
+        "mobile-aspect-ratio": 134,
+        "mobile-text-horizontal-alignment": "center",
+        "mobile-text-vertical-alignment": "center"
+      }
+    },
+    "image_with_text_yNJtnA": {
+      "type": "image-with-text",
+      "disabled": true,
+      "name": "Image with text",
+      "settings": {
+        "border": "none",
+        "spacing-above": "small",
+        "spacing-below": "small",
+        "container-width": "6",
+        "background-color": "none",
+        "white-text": false,
+        "heading-type": "section-heading",
+        "text-position": "left",
+        "overlap": false,
+        "text-horizontal-alignment": "center",
+        "text-vertical-alignment": "center",
+        "text-width": 400,
+        "overlay-style": "darken-bottom",
+        "text-style": "none",
+        "text-background-color": "transparent",
+        "image-display-type": "medium",
+        "aspect-ratio": 56,
+        "parallax-enabled": false,
+        "image": "shopify://shop_images/IMG_2860.jpg",
+        "overline": "",
+        "title": "Our Founder",
+        "highlight-type": "bold-italic",
+        "highlight-color": "dark",
+        "highlight-text": "dark",
+        "description": "<p>House of Even began with a personal search — for jewellery that carried soul.<br/>Meaningful. Intentional. Strong enough to live in daily.<br/>Jewellery that reflected who she is: a woman, a mother, a creator, and a dreamer. </p><p><strong>“I wanted pieces I could wear every day — in the ocean, at work, at school pick-up, on holidays, in the sunshine, through celebration and reflection. Jewellery I could trust. Jewellery I could feel.” — Daíse </strong></p><p>What she couldn’t find, she created.<br/>Now these stories belong to every woman who wears them. </p>",
+        "link-url": "",
+        "button-style": "button-1",
+        "link-text": "",
+        "mobile-full-width": true,
+        "mobile-spacing-above": "small",
+        "mobile-spacing-below": "small",
+        "mobile-image": "shopify://shop_images/IMG_2860.jpg",
+        "mobile-white-text": true,
+        "mobile-overlay": false,
+        "mobile-hide-description": false,
+        "mobile-button-style": "button-1",
+        "mobile-image-display-type": "small",
+        "mobile-aspect-ratio": 134,
+        "mobile-text-horizontal-alignment": "center",
+        "mobile-text-vertical-alignment": "center"
+      }
+    },
+    "image_with_text_Jeicqe": {
+      "type": "image-with-text",
+      "disabled": true,
+      "name": "Image with text",
+      "settings": {
+        "border": "none",
+        "spacing-above": "small",
+        "spacing-below": "small",
+        "container-width": "6",
+        "background-color": "none",
+        "white-text": false,
+        "heading-type": "section-heading",
+        "text-position": "right",
+        "overlap": false,
+        "text-horizontal-alignment": "center",
+        "text-vertical-alignment": "center",
+        "text-width": 400,
+        "overlay-style": "darken-bottom",
+        "text-style": "none",
+        "text-background-color": "transparent",
+        "image-display-type": "medium",
+        "aspect-ratio": 56,
+        "parallax-enabled": false,
+        "image": "shopify://shop_images/WhatsApp_Image_2025-11-21_at_07.35.28_453d65fb-8713-424f-a299-e08b93865b56.png",
+        "overline": "",
+        "title": "Crafted With Intention",
+        "highlight-type": "bold-italic",
+        "highlight-color": "dark",
+        "highlight-text": "dark",
+        "description": "<p><strong>Premium stainless steel.<br/><br/>A thicker layer of 18K gold.<br/><br/>Waterproof, tarnish-resistant, hypoallergenic.<br/><br/>Built to live with you through every season and every transformation. </strong></p><p><strong>Natural stones, pearls, enamel, and crystals bring depth and symbolism — making every piece feel personal and poetic.</strong></p>",
+        "link-url": "",
+        "button-style": "button-1",
+        "link-text": "",
+        "mobile-full-width": true,
+        "mobile-spacing-above": "small",
+        "mobile-spacing-below": "small",
+        "mobile-image": "shopify://shop_images/WhatsApp_Image_2025-11-21_at_07.35.28_453d65fb-8713-424f-a299-e08b93865b56.png",
+        "mobile-white-text": true,
+        "mobile-overlay": true,
+        "mobile-hide-description": false,
+        "mobile-button-style": "button-1",
+        "mobile-image-display-type": "small",
+        "mobile-aspect-ratio": 134,
+        "mobile-text-horizontal-alignment": "center",
+        "mobile-text-vertical-alignment": "center"
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "announcement",
+    "blocks_FMgPLA",
+    "header",
+    "split-announcements",
+    "image_with_text_87FUwk",
+    "image_with_text_iKxJzX",
+    "image_with_text_yNJtnA",
+    "image_with_text_Jeicqe"
+  ]
+}

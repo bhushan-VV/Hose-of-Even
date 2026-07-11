@@ -1,0 +1,184 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "16324732604d3e7054": {
+      "type": "image-with-text",
+      "settings": {
+        "border": "none",
+        "spacing-above": "none",
+        "spacing-below": "small",
+        "container-width": "6",
+        "background-color": "none",
+        "white-text": true,
+        "heading-type": "banner-heading",
+        "text-position": "overlay",
+        "overlap": false,
+        "text-horizontal-alignment": "center",
+        "text-vertical-alignment": "center",
+        "text-width": 500,
+        "overlay-style": "darken-bottom",
+        "text-style": "none",
+        "text-background-color": "transparent",
+        "image-display-type": "medium",
+        "aspect-ratio": 56,
+        "parallax-enabled": false,
+        "image": "shopify://shop_images/18k_gold_jewelry_australia.webp",
+        "overline": "Jewellery With Meaning",
+        "title": "Made to Live In",
+        "highlight-type": "italic",
+        "highlight-color": "accent-2",
+        "highlight-text": "none",
+        "description": "<p>House of Even was created with a simple belief: every woman carries stories worth wearing.<br/><br/>Our jewellery honours those stories — the ones written in your dreams, your intuition, your memories, and all the moments where you rediscover who you are.</p><p>Because your story deserves jewellery that stays with you — through sunlight, movement, rain, salt, and life.</p>",
+        "link-url": "shopify://collections",
+        "button-style": "button-1",
+        "link-text": "",
+        "mobile-full-width": true,
+        "mobile-spacing-above": "small",
+        "mobile-spacing-below": "small",
+        "mobile-image": "shopify://shop_images/18k_gold_jewelry_australia.webp",
+        "mobile-white-text": true,
+        "mobile-overlay": true,
+        "mobile-hide-description": false,
+        "mobile-button-style": "button-1",
+        "mobile-image-display-type": "small",
+        "mobile-aspect-ratio": 134,
+        "mobile-text-horizontal-alignment": "center",
+        "mobile-text-vertical-alignment": "center"
+      }
+    },
+    "main": {
+      "type": "page",
+      "settings": {
+        "show-title": false,
+        "spacing-above": "none",
+        "spacing-below": "large",
+        "container-width": "1",
+        "background-color": "none",
+        "white-text": false,
+        "mobile-spacing-above": "medium",
+        "mobile-spacing-below": "medium"
+      }
+    },
+    "16324732989269ca2c": {
+      "type": "featured-text",
+      "settings": {
+        "border": "none",
+        "spacing-above": "none",
+        "spacing-below": "large",
+        "container-width": "4",
+        "background-color": "none",
+        "outer-background": true,
+        "white-text": false,
+        "text-alignment": "center",
+        "mobile-spacing-above": "medium",
+        "mobile-spacing-below": "medium",
+        "mobile-text-alignment": "center"
+      }
+    },
+    "163247330191cc65e8": {
+      "type": "image-with-text",
+      "settings": {
+        "border": "none",
+        "spacing-above": "none",
+        "spacing-below": "none",
+        "container-width": "3",
+        "background-color": "none",
+        "white-text": false,
+        "heading-type": "section-heading",
+        "text-position": "left",
+        "overlap": false,
+        "text-horizontal-alignment": "center",
+        "text-vertical-alignment": "center",
+        "text-width": 400,
+        "overlay-style": "darken-bottom",
+        "text-style": "none",
+        "text-background-color": "transparent",
+        "image-display-type": "original",
+        "aspect-ratio": 56,
+        "parallax-enabled": false,
+        "image": "shopify://shop_images/DSC_2828.jpg",
+        "overline": "MEET",
+        "title": "Our Founder and Creative Director",
+        "highlight-type": "italic",
+        "highlight-color": "accent-2",
+        "highlight-text": "none",
+        "description": "<p>House of Even began with a personal search — for jewellery that carried soul.<br/><br/>Meaningful. Intentional. Strong enough to live in daily.<br/><br/>Jewellery that reflected who she is: a woman, a mother, a creator, and a dreamer. </p><p>“I wanted pieces I could wear every day — in the ocean, at work, at school pick-up, on holidays, in the sunshine, through celebration and reflection. Jewellery I could trust. Jewellery I could feel.” — Daíse </p>",
+        "link-url": "",
+        "button-style": "button-1",
+        "link-text": "",
+        "mobile-full-width": true,
+        "mobile-spacing-above": "medium",
+        "mobile-spacing-below": "medium",
+        "mobile-image": "shopify://shop_images/DSC_2828.jpg",
+        "mobile-white-text": true,
+        "mobile-overlay": true,
+        "mobile-hide-description": false,
+        "mobile-button-style": "button-1",
+        "mobile-image-display-type": "small",
+        "mobile-aspect-ratio": 134,
+        "mobile-text-horizontal-alignment": "center",
+        "mobile-text-vertical-alignment": "center"
+      }
+    },
+    "1632473305029b8e81": {
+      "type": "image-with-text",
+      "settings": {
+        "border": "none",
+        "spacing-above": "none",
+        "spacing-below": "large",
+        "container-width": "2",
+        "background-color": "none",
+        "white-text": false,
+        "heading-type": "section-heading",
+        "text-position": "right",
+        "overlap": false,
+        "text-horizontal-alignment": "center",
+        "text-vertical-alignment": "center",
+        "text-width": 400,
+        "overlay-style": "darken-bottom",
+        "text-style": "none",
+        "text-background-color": "transparent",
+        "image-display-type": "medium",
+        "aspect-ratio": 56,
+        "parallax-enabled": false,
+        "image": "shopify://shop_images/sun-sets-and-reflects-on-water-and-silhouettes-distant-hills.jpg",
+        "overline": "",
+        "title": "The Meaning Behind EVEN",
+        "highlight-type": "italic",
+        "highlight-color": "accent-2",
+        "highlight-text": "none",
+        "description": "<p>There are rare moments in life where everything feels aligned — moments of balance, clarity, and inner light.<br/><br/>That is the essence of <strong>EVEN</strong>. </p><p>House of Even represents harmony — the balance between strength and softness, beauty and purpose, intuition and action, the sun and the moon within every woman. </p>",
+        "link-url": "",
+        "button-style": "button-1",
+        "link-text": "",
+        "mobile-full-width": true,
+        "mobile-spacing-above": "small",
+        "mobile-spacing-below": "small",
+        "mobile-image": "shopify://shop_images/sun-sets-and-reflects-on-water-and-silhouettes-distant-hills.jpg",
+        "mobile-white-text": true,
+        "mobile-overlay": true,
+        "mobile-hide-description": false,
+        "mobile-button-style": "button-1",
+        "mobile-image-display-type": "x-small",
+        "mobile-aspect-ratio": 134,
+        "mobile-text-horizontal-alignment": "center",
+        "mobile-text-vertical-alignment": "center"
+      }
+    }
+  },
+  "order": [
+    "16324732604d3e7054",
+    "main",
+    "16324732989269ca2c",
+    "163247330191cc65e8",
+    "1632473305029b8e81"
+  ]
+}

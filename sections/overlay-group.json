@@ -1,0 +1,92 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "aside",
+  "name": "Overlay Group",
+  "sections": {
+    "popup": {
+      "type": "popup",
+      "blocks": {
+        "newsletter_F8Qd7e": {
+          "type": "newsletter",
+          "disabled": true,
+          "settings": {
+            "background-color": "accent-1",
+            "translucent": false,
+            "white-text": false,
+            "position": "right",
+            "text-alignment": "center",
+            "social-enabled": true,
+            "heading": "JOIN OUR INNER CIRCLE",
+            "description": "<p>Be the first to access new pieces, limited releases, and private moments with House of Even.<br/><br/>Enjoy <strong>20% OFF</strong> on your first order as a welcome.</p>",
+            "social-title": "Step Into Our World",
+            "delay": 10,
+            "show-at-bottom": true,
+            "days-range": 14,
+            "referrer-enabled": false,
+            "referrer-url": "",
+            "page-enabled": false,
+            "page-url": ""
+          }
+        },
+        "small_promotion_HfVHMQ": {
+          "type": "small-promotion",
+          "disabled": true,
+          "settings": {
+            "background-color": "dark",
+            "translucent": true,
+            "white-text": true,
+            "heading-type": "paragraph",
+            "position": "left",
+            "heading": "10% off your first order",
+            "delay": 3,
+            "show-at-bottom": true,
+            "days-range": 7,
+            "referrer-enabled": false,
+            "referrer-url": "",
+            "page-enabled": false,
+            "page-url": "",
+            "scroll-text": true,
+            "animation-speed": 7.5,
+            "mobile-scroll-text": true,
+            "mobile-animation-speed": 7.5
+          }
+        },
+        "consent-tracking": {
+          "type": "consent-tracking",
+          "disabled": true,
+          "settings": {
+            "background-color": "dark",
+            "translucent": true,
+            "white-text": true,
+            "position": "left",
+            "text-alignment": "center",
+            "accept-button-style": "button-2",
+            "decline-button-style": "button-4",
+            "heading": "Cookie consent",
+            "description": "<p>We use cookies and similar technologies to provide the best experience on our website. Refer to our Privacy Policy for more information.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "newsletter_F8Qd7e",
+        "small_promotion_HfVHMQ",
+        "consent-tracking"
+      ],
+      "custom_css": [],
+      "settings": {
+        "limit": true
+      }
+    }
+  },
+  "order": [
+    "popup"
+  ]
+}
