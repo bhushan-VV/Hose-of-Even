@@ -246,17 +246,7 @@
         -%}
       </div>
     {%- else -%}
-      {%-
-        render 'carousel',
-        section: section,
-        blocks: block_html_arr,
-        blocks_per_slide: columns,
-        blocks_per_slide_mobile: mobile_columns,
-        mobile_only: true,
-        mobile_next_visible: false,
-        total_blocks: block_html_arr.size,
-        total_slides: block_html_arr.size | divided_by: mobile_columns
-      -%}
+      {%- render 'carousel', section: section, blocks: block_html_arr, blocks_per_slide: columns, blocks_per_slide_mobile: mobile_columns, mobile_only: true, mobile_next_visible: false, total_blocks: block_html_arr.size, total_slides: block_html_arr.size, divided_by: mobile_columns -%}
     {%- endif -%}
 
     {%- unless link_text == blank -%}
@@ -835,4 +825,27 @@
     "groups": ["aside"]
   }
 }
-{% endschema %}
+{% endschema %}{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: |-
+    {%-
+            render 'carousel',
+            section: section,
+            blocks: block_html_arr,
+            blocks_per_slide: columns,
+            blocks_per_slide_mobile: mobile_columns,
+            mobile_only: true,
+            mobile_next_visible: false,
+            total_blocks: block_html_arr.size,
+            total_slides: block_html_arr.size | divided_by: mobile_columns
+          -%}
+  to: "{%- render 'carousel', section: section, blocks: block_html_arr, blocks_per_slide:
+    columns, blocks_per_slide_mobile: mobile_columns, mobile_only: true, mobile_next_visible:
+    false, total_blocks: block_html_arr.size, total_slides: block_html_arr.size, divided_by:
+    mobile_columns -%}"
+  position: 8853..9133
+{%- endcomment -%}

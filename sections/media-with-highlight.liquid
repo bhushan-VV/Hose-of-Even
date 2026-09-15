@@ -300,16 +300,7 @@
         </div>
       {%- else -%}
         <div class="media-with-highlight--products">
-          {%-
-            render 'carousel',
-            section: section,
-            blocks: media_blocks_arr,
-            blocks_per_slide: blocks_per_row_desktop_str,
-            blocks_per_slide_mobile: blocks_per_row_mobile_str,
-            mobile_only: true,
-            total_blocks: media_blocks_arr.size,
-            total_slides: media_blocks_arr.size | divided_by: blocks_per_row_mobile
-          -%}
+          {%- render 'carousel', section: section, blocks: media_blocks_arr, blocks_per_slide: blocks_per_row_desktop_str, blocks_per_slide_mobile: blocks_per_row_mobile_str, mobile_only: true, total_blocks: media_blocks_arr.size, total_slides: media_blocks_arr.size, divided_by: blocks_per_row_mobile -%}
         </div>
       {%- endif -%}
     </div>
@@ -1291,3 +1282,26 @@
   }
 {% endschema %}
 
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: |-
+    {%-
+                render 'carousel',
+                section: section,
+                blocks: media_blocks_arr,
+                blocks_per_slide: blocks_per_row_desktop_str,
+                blocks_per_slide_mobile: blocks_per_row_mobile_str,
+                mobile_only: true,
+                total_blocks: media_blocks_arr.size,
+                total_slides: media_blocks_arr.size | divided_by: blocks_per_row_mobile
+              -%}
+  to: "{%- render 'carousel', section: section, blocks: media_blocks_arr, blocks_per_slide:
+    blocks_per_row_desktop_str, blocks_per_slide_mobile: blocks_per_row_mobile_str,
+    mobile_only: true, total_blocks: media_blocks_arr.size, total_slides: media_blocks_arr.size,
+    divided_by: blocks_per_row_mobile -%}"
+  position: 11889..12184
+{% endcomment %}

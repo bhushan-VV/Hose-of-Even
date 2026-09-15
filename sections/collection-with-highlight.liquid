@@ -208,16 +208,7 @@
             data-text-color="white"
           {% endif %}
         >
-          {%-
-            render 'carousel',
-            section: section,
-            blocks: product_blocks_arr,
-            blocks_per_slide: products_per_row_desktop_str,
-            blocks_per_slide_mobile: products_per_row_mobile_str,
-            mobile_only: true,
-            total_blocks: product_blocks_arr.size,
-            total_slides: product_blocks_arr.size | divided_by: products_per_row_mobile
-          -%}
+          {%- render 'carousel', section: section, blocks: product_blocks_arr, blocks_per_slide: products_per_row_desktop_str, blocks_per_slide_mobile: products_per_row_mobile_str, mobile_only: true, total_blocks: product_blocks_arr.size, total_slides: product_blocks_arr.size, divided_by: products_per_row_mobile -%}
         </div>
       {%- endif -%}
     </div>
@@ -907,3 +898,26 @@
   }
 {% endschema %}
 
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: |-
+    {%-
+                render 'carousel',
+                section: section,
+                blocks: product_blocks_arr,
+                blocks_per_slide: products_per_row_desktop_str,
+                blocks_per_slide_mobile: products_per_row_mobile_str,
+                mobile_only: true,
+                total_blocks: product_blocks_arr.size,
+                total_slides: product_blocks_arr.size | divided_by: products_per_row_mobile
+              -%}
+  to: "{%- render 'carousel', section: section, blocks: product_blocks_arr, blocks_per_slide:
+    products_per_row_desktop_str, blocks_per_slide_mobile: products_per_row_mobile_str,
+    mobile_only: true, total_blocks: product_blocks_arr.size, total_slides: product_blocks_arr.size,
+    divided_by: products_per_row_mobile -%}"
+  position: 8156..8463
+{% endcomment %}

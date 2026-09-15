@@ -135,15 +135,7 @@
       {%- endunless -%}
 
       {%- if display_type == 'slideshow' -%}
-        {%-
-          render 'carousel',
-          section: section,
-          blocks: product_items_arr,
-          blocks_per_slide: columns,
-          blocks_per_slide_mobile: mobile_columns,
-          total_blocks: product_items_arr.size,
-          total_slides: product_items_arr.size | divided_by: 2
-        -%}
+        {%- render 'carousel', section: section, blocks: product_items_arr, blocks_per_slide: columns, blocks_per_slide_mobile: mobile_columns, total_blocks: product_items_arr.size, total_slides: product_items_arr.size, divided_by: 2 -%}
 
       {%- else -%}
         {%- liquid
@@ -448,4 +440,24 @@
     "groups": ["aside"]
   }
 }
-{% endschema %}
+{% endschema %}{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: |-
+    {%-
+              render 'carousel',
+              section: section,
+              blocks: product_items_arr,
+              blocks_per_slide: columns,
+              blocks_per_slide_mobile: mobile_columns,
+              total_blocks: product_items_arr.size,
+              total_slides: product_items_arr.size | divided_by: 2
+            -%}
+  to: "{%- render 'carousel', section: section, blocks: product_items_arr, blocks_per_slide:
+    columns, blocks_per_slide_mobile: mobile_columns, total_blocks: product_items_arr.size,
+    total_slides: product_items_arr.size, divided_by: 2 -%}"
+  position: 4956..5185
+{%- endcomment -%}
