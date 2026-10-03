@@ -257,7 +257,7 @@
         "hotspot_yHajeL": {
           "type": "hotspot",
           "settings": {
-            "product": "the-sol-connector-necklace",
+            "product": "sol-connector-necklace",
             "horizontal": 51,
             "vertical": 52,
             "mobile-horizontal": 50,
@@ -586,7 +586,7 @@
             "products": [
               "isla-connector-necklace",
               "lua-connector-necklace",
-              "the-sol-connector-necklace",
+              "sol-connector-necklace",
               "freshwater-pearl-charm",
               "divine-hand-charm",
               "solar-aura-charm",
